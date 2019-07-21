@@ -48,7 +48,7 @@ function getProperties(filepath) {
     .substring(0, filepath.lastIndexOf("."))
     .split(/[\\/]/);
   return properties.map(property => {
-    if (!/^[a-z][a-z0-9_-]*$/i.test(property)) {
+    if (!/^[a-z][\.a-z0-9_-]*$/i.test(property)) {
       throw new Error(`${property} is not match 'a-z0-9_-' in ${filepath}`);
     }
 

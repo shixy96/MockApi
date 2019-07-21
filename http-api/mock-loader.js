@@ -14,7 +14,13 @@ function initRouter(app) {
       console.log(
         `正在映射地址： ${method.toLocaleUpperCase()} ${prefix}${path}`
       );
-      router[method](prefix + path, routes[key]);
+      let middleware =
+        typeof routes[key] === "function"
+          ? routes[key]
+          : ctx => {
+              ctx.body = routes[key];
+            };
+      router[method](prefix + path, middleware);
     });
   });
   return router;
