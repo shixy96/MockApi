@@ -44,7 +44,7 @@ And you can use it in the route `routes/account`.
 // routes/account.js
 // method 1
 app => ({
-  // ->  localhost:3000/account/queryBalance
+  // ->  localhost:3000/mock/account/queryBalance
   "get /queryBalance": ctx => {
     console.log(ctx.request.query)
     ctx.body = app.model.account.queryBalance;
@@ -54,11 +54,11 @@ app => ({
 // routes/purchase.js
 // method 2
 app => ({
-  // ->  localhost:3000/purchase/history
+  // ->  localhost:3000/mock/purchase/history
   "get /history": app.model.purchase.history["v6.3"]
 });
 ```
 
-Each method corresponds to a get request, the corresponding paths are *"localhost:3000/account/queryBalance"* and *"localhost:3000/purchase/history"*
+Each method corresponds to a get request, the corresponding paths are *"localhost:3000/mock/account/queryBalance"* and *"localhost:3000/mock/purchase/history"*
 
 One-to-one correspondence between multi-level directories and **app.model**

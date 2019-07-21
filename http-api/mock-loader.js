@@ -5,7 +5,7 @@ function initRouter(app) {
   const router = new Router();
   loadDirection("routes", (properties, routes) => {
     const fileName = properties.slice(-1);
-    const prefix = fileName === "index" ? "" : `/${fileName}`;
+    const prefix = fileName === "index" ? "" : `/mock/${fileName}`;
 
     routes = typeof routes === "function" ? routes(app) : routes;
 
