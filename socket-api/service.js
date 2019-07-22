@@ -1,58 +1,70 @@
-var WebSocketServer = require("ws").Server;
-var wss = new WebSocketServer({ port: 3000 });
+const WebSocketServer = require("ws").Server;
+const wss = new WebSocketServer({ port: 3000, path: "/v1/socketHandler" });
 
-var clients = [];
-var historyMessages = [
-    {
-        category: "MESSAGE",
-        from: "/room/8888/user/2345",
-        to: "/user/1234",
-        type: "groupchat",
-        body: {
-            text: "今晚吃什么？",
-            time: 1430978424249
-        }
-    },
-    {
-        category: "MESSAGE",
-        from: "/room/8888/user/4567",
-        to: "/user/1234",
-        type: "groupchat",
-        body: {
-            text: "黄焖鸡米饭",
-            time: 1430978425821
-        }
-    }
-];
+const roomId = 8888;
 
-wss.on("connection", function(client) {
-    clients.push(client);
-    client.on("message", function(message) {
-        message = JSON.parse(message);
-        if (message.category === "PRESENCE") {
-            historyMessages.forEach(historyMessage => {
-                client.send(JSON.stringify(historyMessage));
-            });
-        } else if (message.category === "MESSAGE") {
-            clients.forEach(function(socket) {
-                socket.send(JSON.stringify(message));
-            });
-        }
-    });
+let clients = [];
+let users = require("./model/users");
+let historyMessages = require("./model/history");
 
-    client.on("close", function() {
+wss.on("connection", function(client, req) {
+  const preToken = /[?&]token=(([^&#]*)|&|#|$)/.exec(req.url);
+  const token = preToken && preToken[2];
+  const preSelf = /[?&]self=(([^&#]*)|&|#|$)/.exec(req.url);
+  const self = preSelf && preSelf[2];
+  const userId = self.split('/').slice(-1);
+  client.on("message", function(message) {
+    message = typeof message === 'string' ? JSON.parse(message) : message;
+    console.log('recive\t',message)
+    if (message.category === "PRESENCE") {
+      if (message.type === "unavailable") {
         clients = clients.filter(function(socket) {
-            return socket !== client;
+          return socket !== client;
         });
+        console.log(24, clients)
+        users = users.filter(function(user) {
+          return user.id !== userId;
+        });
+        console.log(27, users)
+        return;
+      }
+      users.forEach(user => {
+        const content = JSON.stringify({
+          category: "PRESENCE",
+          from: `/room/${roomId}/user/${user.id}`,
+          to: `/user/${userId}`,
+          fromNick: user.nick,
+          fromAvatar: user.avatar
+        })
+        console.log('send\t',content)
+        client.send(content);
+      });
+      historyMessages.forEach(historyMessage => {
+        client.send(JSON.stringify(historyMessage));
+      });
+      users.push({ id: userId, nick: userId });
+      clients.push(client)
+    } else if (message.category === "MESSAGE") {
+      clients.forEach(function(socket) {
+        console.log('send\t',message)
+        socket.send(JSON.stringify(message));
+      });
+    }
+  });
+
+  client.on("close", function() {
+    clients = clients.filter(function(socket) {
+      return socket !== client;
     });
+  });
 });
 
 var app = require("express")();
 
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/client.html");
+  res.sendFile(__dirname + "/client.html");
 });
 
 app.listen(3010, function() {
-    console.log("client on 3010, \nserver on 3000");
+  console.log("client on 3010, \nserver on 3000");
 });
