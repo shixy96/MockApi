@@ -2,7 +2,6 @@ module.exports = [
   {
     category: "MESSAGE",
     from: "/room/8888/user/2345",
-    to: "/user/1234",
     type: "groupchat",
     body: {
       text: "今晚吃什么？",
@@ -12,7 +11,6 @@ module.exports = [
   {
     category: "MESSAGE",
     from: "/room/8888/user/4567",
-    to: "/user/1234",
     type: "groupchat",
     body: {
       text: "黄焖鸡米饭",
@@ -22,7 +20,6 @@ module.exports = [
   {
     category: "MESSAGE",
     from: "/room/8888/user/1234",
-    to: "/user/4567",
     type: "groupchat",
     body: {
       text: "黄焖鸡米饭不好吃",
