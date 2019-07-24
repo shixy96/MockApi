@@ -1,0 +1,11 @@
+{
+  "description": "test",
+  "endTime": 1540715934000,
+  "id": 82,
+  "name": "小学教师资格证测试",
+  "price": 299000,
+  "schoolId": 0,
+  "startTime": 1539851934000,
+  "type": 4,
+  "allowPayType": [0, 3, 5]
+}

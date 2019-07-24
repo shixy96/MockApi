@@ -1,0 +1,35 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "collected": true,
+    "id": "5ba1d0a4d8fb251a3a72dd0d",
+    "name": "初级会计师资格考试:初级会计实务试题涉及考点总结",
+    "serialNum": null,
+    "description": "初中数学教师资格证 学科专业与能力视频讲解初中数学教师资格证 学科专业与能力视频讲解初中数学教师资格证 学科展业",
+    "coverImg": "https://s3.cn-northwest-1.amazonaws.com.cn/search-crawler/image/052bc870-f160-11e8-b343-bfcac6ea1f55.jpg",
+    "url": "https://player.bilibili.com/player.html?aid=33222104&cid=58148510&page=1",
+    "tags": [
+      "会计职称考试",
+      "初级会计实务",
+      "会计职称考试",
+      "初级会计实务",
+      "会计职称考试",
+      "初级会计实务"
+    ],
+    "purchasable": false,
+    "selfSupport": false,
+    "createdTime": null,
+    "typeName": "视频",
+    "referCampaign": null,
+    "duration": 384000,
+    "originalVideoUrl": null,
+    "courseId": "5c220a077b0a1139a8884f6c",
+    "courseName": "所属课程：2018年教师资格考试《教育学(小学组)》复习全书啊【核心讲义+历年真题详解】",
+    "popularity": 452,
+    "thumbsUpNum": 325,
+    "hasThumbsUp": true,
+    "hasThumbsDown": false
+  },
+  "extraData": null
+}

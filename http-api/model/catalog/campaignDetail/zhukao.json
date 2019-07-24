@@ -1,0 +1,52 @@
+{
+  "id": "1",
+  "name": "助考",
+  "type": 2,
+  "subName": null,
+  "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_item.png",
+  "adsHtml": null,
+  "adsImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_banner.png",
+  "adsVideo": null,
+  "tags": null,
+  "createdTime": null,
+  "features": null,
+  "catalogs": [
+    {
+      "id": "5b7fd723eb3a9440d057464c",
+      "serialNum": "3be215b9-47da-11e8-b542-02641ac65426",
+      "name": "高起本（理科）",
+      "description": null,
+      "url": null,
+      "type": 1,
+      "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/zhukao/coursebag/2018science_ben.png",
+      "tags": null,
+      "purchasable": true,
+      "selfSupport": true,
+      "createdTime": 1523503277000,
+      "typeName": "课程包",
+      "referCampaign": null,
+      "duration": null,
+      "originalVideoUrl": null,
+      "highlightedStrsInName": null
+    },
+    {
+      "id": "5b7fd723eb3a9440d057464d",
+      "serialNum": "3be22aee-47da-11e8-b542-02641ac65426",
+      "name": "高起本（文科）",
+      "description": null,
+      "url": null,
+      "type": 1,
+      "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/zhukao/coursebag/2018arts_ben.png",
+      "tags": null,
+      "purchasable": true,
+      "selfSupport": true,
+      "createdTime": 1523503299000,
+      "typeName": "课程包",
+      "referCampaign": null,
+      "duration": null,
+      "originalVideoUrl": null,
+      "highlightedStrsInName": null
+    }
+  ],
+  "quizs": null
+}

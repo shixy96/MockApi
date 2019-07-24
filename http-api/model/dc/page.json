@@ -1,0 +1,237 @@
+{
+  "data": {
+    "pageName": "discovery page",
+    "type": "Discovery",
+    "version": 123,
+    "trackBehaviors": ["Enter", "Stay", "SwitchTab"],
+    "components": [
+      {
+        "componentType": "SearchBar",
+        "placeHolder": "大家都在搜：成教 职称",
+        "defaultSearch": "成教 职称",
+        "position": "fixed"
+      },
+      {
+        "componentType": "Tabs",
+        "sticky": true,
+        "editable": true,
+        "editBtnName": "选课",
+        "expandable": true,
+        "initialItem": 0,
+        "items": [
+          {
+            "name": "精选",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+              {
+                "componentType": "Swipe",
+                "autoplay": 0,
+                "duration": 500,
+                "initialItem": 0,
+                "loop": false,
+                "showIndicators": true,
+                "touchable": true,
+                "items": [
+                  {
+                    "contentId": "5bade11eeb3a942b68dbfe37",
+                    "contentType": "CatalogInfo",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_banner.png"
+                  },
+                  {
+                    "contentId": "5b8ba0f5a306103e64aa0007",
+                    "contentType": "CatalogCampaign",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_banner.png"
+                  },
+                  {
+                    "contentId": "5ba9aa13eb3a940a6431ff1b",
+                    "contentType": "CatalogQuiz",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_banner.png"
+                  }
+                ]
+              },
+              {
+                "componentType": "NavIcons",
+                "items": [
+                  {
+                    "title": "教师资格证",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/js.png",
+                    "href": "home?category=教师资格证"
+                  },
+                  {
+                    "title": "建筑工程",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/jz.png",
+                    "href": "home?category=建筑工程类"
+                  },
+                  {
+                    "title": "幼儿",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/cj.png",
+                    "href": "search?cats=教师资格证-幼儿"
+                  },
+                  {
+                    "title": "小学",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/hr.png",
+                    "href": "search?cats=教师资格证-小学"
+                  },
+                  {
+                    "title": "初中",
+                    "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/hr.png",
+                    "href": "search?cats=教师资格证-初中"
+                  }
+                ]
+              },
+              {
+                "componentType": "OpenClass",
+                "title": "公开课",
+                "content": {
+                  "dataUrl": "https://api.qingshuxuetang.com/v7_0/catalog/search?catalogType=9",
+                  "size": 3,
+                  "render": {
+                    "style": "OpenClassNoImage",
+                    "elements": {
+                      "tag": true,
+                      "tagLimit": 3,
+                      "popularity": true
+                    }
+                  }
+                }
+              },
+              {
+                "componentType": "RecommendList",
+                "title": "精选课程",
+                "content": {
+                  "dataUrl": "https://api.qingshuxuetang.com/v6_9/catalog/search?catalogType=8&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81",
+                  "size": 3,
+                  "render": {
+                    "style": "CatalogCourseNoImage",
+                    "elements": {
+                      "tag": true,
+                      "tagLimit": 3,
+                      "price": true,
+                      "duration": true,
+                      "popularity": true
+                    }
+                  }
+                }
+              },
+              {
+                "componentType": "RecommendList",
+                "title": "练习",
+                "content": {
+                  "dataUrl": "https://api.qingshuxuetang.com/v6_9/catalog/search?catalogType=6&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81",
+                  "size": 3
+                }
+              },
+              {
+                "componentType": "RecommendTabs",
+                "title": "最新资讯",
+                "sticky": false,
+                "editable": false,
+                "expandable": false,
+                "initialItem": 0,
+                "items": [
+                  {
+                    "name": "热点",
+                    "content": {
+                      "dataUrl": "https://api.qingshuxuetang.com/v6_9/catalog/search?catalogType=2",
+                      "size": 3,
+                      "render": {
+                        "elements": {
+                          "thumbnail": true,
+                          "tag": true,
+                          "tagLimit": 3,
+                          "popularity": true
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "name": "教师资格",
+                    "content": {
+                      "dataUrl": "https://api.qingshuxuetang.com/v6_9/catalog/search?catalogType=2&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81",
+                      "size": 3,
+                      "render": {
+                        "elements": {
+                          "thumbnail": true,
+                          "tag": true,
+                          "tagLimit": 3,
+                          "popularity": true
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "componentType": "Image",
+                "imageUrl": "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/js.png"
+              }
+            ]
+          },
+          {
+            "name": "教师资格",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "建筑工程",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "医药卫生",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          },
+          {
+            "name": "财会金融",
+            "icon": "https://s3.cn-north-1.amazonaws.com.cn/discovery/test/test.png",
+            "components": [
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "extraData": null,
+  "hr": 0,
+  "message": "成功"
+}

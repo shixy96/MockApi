@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "allowPayType": [0, 3, 5],
+      "description": null,
+      "endTime": 1568948117645,
+      "id": 66,
+      "name": "小学教师资格证",
+      "price": 0,
+      "schoolId": 0,
+      "startTime": 1534757606000,
+      "type": 1
+    },
+    {
+      "allowPayType": [0, 3, 5],
+      "description": null,
+      "endTime": 1568948117645,
+      "id": 67,
+      "name": "小学教师资格证",
+      "price": 329000,
+      "schoolId": 0,
+      "startTime": 1534757606000,
+      "type": 3
+    },
+    {
+      "allowPayType": [0, 3, 5],
+      "description": null,
+      "endTime": 1575708006000,
+      "id": 68,
+      "name": "小学教师资格证",
+      "price": 359000,
+      "schoolId": 0,
+      "startTime": 1534757606000,
+      "type": 2
+    },
+    {
+      "id": 65,
+      "name": "小学教师资格证",
+      "description": null,
+      "price": 348000,
+      "allowPayType": [0, 5],
+      "startTime": 1534396383000,
+      "endTime": 1535692383000,
+      "schoolId": 0,
+      "type": 4
+    },
+    {
+      "id": 64,
+      "name": "小学教师资格证",
+      "description": null,
+      "price": 348500,
+      "allowPayType": [0, 5],
+      "startTime": 1534396383000,
+      "endTime": 1575708006000,
+      "schoolId": 0,
+      "type": 5
+    }
+  ],
+  "extraData": null,
+  "hr": 0,
+  "message": "成功"
+}

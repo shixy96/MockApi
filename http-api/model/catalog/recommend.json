@@ -1,0 +1,67 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "total": 3,
+    "rows": [
+      {
+        "id": "5b7fd723eb3a9440d057467d",
+        "name": "教师资格证",
+        "description": null,
+        "url": null,
+        "type": 14,
+        "typeName": "推广活动",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": null,
+        "purchasable": true,
+        "createdTime": null,
+        "selfSupport": true,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467b",
+        "name": "助考",
+        "description": null,
+        "url": null,
+        "type": 14,
+        "typeName": "推广活动",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_item.png",
+        "tags": null,
+        "purchasable": true,
+        "createdTime": 1532409951886,
+        "selfSupport": false,
+        "referCampaign": null,
+        "courseId": "5b56b864516cf4260857f5werr",
+        "courseName": "测试课程1",
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467c",
+        "name": "学位英语",
+        "description": null,
+        "url": null,
+        "type": 14,
+        "typeName": "推广活动",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_eng_item.png",
+        "tags": null,
+        "purchasable": true,
+        "createdTime": null,
+        "selfSupport": true,
+        "referCampaign": "5b56b864516cf4260857f573",
+        "courseId": null,
+        "courseName": null,
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      }
+    ]
+  },
+  "extraData": null
+}

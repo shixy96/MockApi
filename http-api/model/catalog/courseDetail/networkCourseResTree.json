@@ -1,0 +1,150 @@
+[
+  {
+    "id": "1",
+    "name": "复习指南",
+    "subNodeList": [
+      {
+        "id": "11",
+        "name": "二级文件夹",
+        "subNodeList": [],
+        "type": 1,
+        "video": {
+          "id": "5b229fe3a31db87f40a79cb1",
+          "name": "第一节练习题讲解",
+          "serialNum": "dasfa-fasfkja",
+          "description": "名师讲解",
+          "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_eng_item.png",
+          "url": "https://www.bilibili.com/video/av33593048",
+          "createdTime": 1545656768787,
+          "purchasable": false,
+          "selfSupport": false,
+          "duration": 3600,
+          "tags": null
+        }
+      },
+      {
+        "id": "12",
+        "name": "二级文件夹",
+        "type": 100,
+        "subNodeList": [
+          {
+            "id": "123",
+            "name": "三级文件",
+            "subNodeList": [],
+            "type": 1
+          },
+          {
+            "id": "124",
+            "name": "三级文件三级文件三级文件三级文件三级文件三级文件三级文件",
+            "subNodeList": [
+              {
+                "id": "1245",
+                "name": "四级文件",
+                "subNodeList": [],
+                "type": 1
+              },
+              {
+                "id": "1246",
+                "name": "四级文件四级文件四级文件四级文件四级文件四级文件四级文件",
+                "subNodeList": [],
+                "type": 2
+              },
+              {
+                "id": "1247",
+                "name": "四级文件",
+                "subNodeList": [
+                  {
+                    "id": "12478",
+                    "name": "二级文件夹",
+                    "subNodeList": [],
+                    "type": 1
+                  },
+                  {
+                    "id": "1249",
+                    "name": "二级文件夹",
+                    "type": 2,
+                    "subNodeList": []
+                  }
+                ],
+                "type": 100
+              },
+              {
+                "id": "1251",
+                "name": "四级文件四级文件四级文件四级文件四级文件四级文件四级文件",
+                "subNodeList": [],
+                "type": 2
+              }
+            ],
+            "type": 100
+          },
+          {
+            "id": "126",
+            "name": "三级文件",
+            "subNodeList": [],
+            "type": 2
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "三级文件",
+        "subNodeList": [],
+        "type": 100
+      }
+    ],
+    "type": 100
+  },
+  {
+    "id": "fhf2",
+    "name": "核心讲义",
+    "type": 100,
+    "subNodeList": [
+      {
+        "id": "1251",
+        "name": "四级文件四级文件四级文件四级文件四级文件四级文件四级文件",
+        "subNodeList": [
+          {
+            "id": "1251",
+            "name": "四级文件四级文件四级文件四级文件四级文件四级文件四级文件",
+            "subNodeList": [
+              {
+                "id": "1251",
+                "name": "四级文件四级文件四级文件四级文件四级文件四级文件四级文件",
+                "subNodeList": [
+                  {
+                    "id": "1251",
+                    "name": "四级文件四级文件四级文件四级文件四级文件四级文件四级文件",
+                    "subNodeList": [],
+                    "type": 1
+                  }
+                ],
+                "type": 100
+              }
+            ],
+            "type": 100
+          }
+        ],
+        "type": 100
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "历年真题及详解",
+    "subNodeList": [],
+    "type": 100
+  },
+  {
+    "id": "5",
+    "name": "复习指南",
+    "subNodeList": [
+      {
+        "id": "3",
+        "name": "历年真题及详解",
+        "subNodeList": [],
+        "type": 1
+      }
+    ],
+    "type": 100
+  }
+]

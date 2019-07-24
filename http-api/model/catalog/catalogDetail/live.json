@@ -1,0 +1,60 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "collected": true,
+    "id": "5ba1d0a4d8fb251a3a72dd0d",
+    "name": "初级会计师资格考试:初级会计实务试题涉及考点总结",
+    "serialNum": null,
+    "description": "初中数学教师资格证 学科专业与能力视频讲解初中数学教师资格证 学科专业与能力视频讲解初中数学教师资格证 学科展业",
+    "coverImg": "https://s3.cn-northwest-1.amazonaws.com.cn/search-crawler/image/052bc870-f160-11e8-b343-bfcac6ea1f55.jpg",
+    "url": "https://player.bilibili.com/player.html?aid=33222104&cid=58148510&page=1",
+    "tags": [
+      "会计职称考试",
+      "初级会计实务",
+      "会计职称考试",
+      "初级会计实务",
+      "会计职称考试",
+      "初级会计实务"
+    ],
+    "purchasable": false,
+    "selfSupport": false,
+    "createdTime": null,
+    "typeName": "视频",
+    "referCampaign": null,
+    "duration": 384000,
+    "originalVideoUrl": null,
+    "courseId": "5c220a077b0a1139a8884f6c",
+    "courseName": "所属课程：2018年教师资格考试《教育学(小学组)》复习全书啊【核心讲义+历年真题详解】",
+    "popularity": 452,
+    "thumbsUpNum": 325,
+    "hasThumbsUp": true,
+    "hasThumbsDown": false,
+    "liveDetail": {
+      "id": "189",
+      "title": "2019上半年教师资格证考试综合素质真题最多显示两行，超过了会怎么样",
+      "beginTime": 1528974602000,
+      "cats": [],
+      "tags": ["精品公开课", "教师资格"],
+      "teacherInfo": {
+        "teacherName": "王怀君",
+        "teacherIntro": "国家985师范院校特级教师，教育学硕士学位，发表过多篇教师考试论文，被刊载在各大知名教育学术论坛。长期从事素质考试模块，擅长中学教资考试难点、重点解析。",
+        "teacherPhotoUrl": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/a3164afd-4870-4b7a-b27b-08c47c954c03.jpg"
+      },
+      "courseInfo": {
+        "courseCoverImgUrl": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/a3164afd-4870-4b7a-b27b-08c47c954c03.jpg",
+        "courseIntro": "仔细观察欧洲设计的风格，不难发现，设计师们在展现各自独创性的同时，不约而同地保留了一些手工生产的气息。这也许是因为工匠式的制作方法被设计师们继承了下来，最终成为其设计的一部分设工匠式的制作方法。",
+        "courseDetailImgUrl": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/a3164afd-4870-4b7a-b27b-08c47c954c03.jpg"
+      },
+      "pullHlsUrl": "http://pili-live-hls.test.ql.qsxt.info/qs-live-test/qs_live_0_1224465_1517884844951.m3u8",
+      "pullHttpUrl": "",
+      "pullRtmpUrl": "",
+      "pullHdlUrl": "",
+      "pullSnapUrl": "",
+      "url": "https://u.qsxt.info/qsdx_discovery/video1.mp4",
+      "status": 3,
+      "reserved": true
+    }
+  },
+  "extraData": null
+}
