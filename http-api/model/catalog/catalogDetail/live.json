@@ -31,7 +31,7 @@
     "hasThumbsUp": true,
     "hasThumbsDown": false,
     "liveDetail": {
-      "id": "189",
+      "id": "491",
       "title": "2019上半年教师资格证考试综合素质真题最多显示两行，超过了会怎么样",
       "beginTime": 1528974602000,
       "cats": [],
@@ -53,7 +53,11 @@
       "pullSnapUrl": "",
       "url": "https://u.qsxt.info/qsdx_discovery/video1.mp4",
       "status": 1,
-      "reserved": true
+      "reserved": true,
+      "imInfo": {
+        "chatRoomId": "5d38523b97a1c00001af0ee0",
+        "imServerUrl": "ws://172.32.4.91:20016/v1/socketHandler"
+      }
     }
   },
   "extraData": null
