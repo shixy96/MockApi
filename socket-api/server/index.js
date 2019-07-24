@@ -9,7 +9,8 @@ function connection(client, req) {
   const token = preToken && preToken[2];
   const preSelf = /[?&]self=(([^&#]*)|&|#|$)/.exec(req.url);
   const self = preSelf && preSelf[2];
-  const userId = self.split("/").slice(-1);
+  let userId = self.split("/").slice(-1);
+  Array.isArray(userId) && (userId = userId[0]);
 
   client.on("message", function(message) {
     message = typeof message === "string" ? JSON.parse(message) : message;
@@ -63,6 +64,22 @@ function enterRoom(client, userId) {
       toUserId: userId
     })
   );
+  const content = {
+    category: "PRESENCE",
+    fromDetail: {
+      type: "CHAT_ROOM_PARTICIPANT",
+      participantRole: "MEMBER",
+      userId: userId,
+      nick: userId
+    }
+  };
+  clients.forEach(user => {
+    send({
+      socket: user.socket,
+      message: content,
+      toUserId: user.userId
+    });
+  });
   users.push({ id: userId, nick: userId });
   clients.push({ userId, socket: client });
 }
@@ -83,6 +100,7 @@ function processMessage(message, userId) {
 }
 
 function send({ socket, message, fromUserId, toUserId }) {
+  console.log(fromUserId);
   message = {
     ...message,
     from: fromUserId ? `/room/${roomId}/user/${fromUserId}` : message.from,

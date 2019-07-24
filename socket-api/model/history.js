@@ -5,7 +5,7 @@ module.exports = [
     type: "groupchat",
     body: {
       text: "今晚吃什么？",
-      time: 1430978424249
+      time: Date.now() + 10
     }
   },
   {
@@ -14,7 +14,7 @@ module.exports = [
     type: "groupchat",
     body: {
       text: "黄焖鸡米饭",
-      time: 1430978425821
+      time: Date.now() + 20
     }
   },
   {
@@ -23,7 +23,7 @@ module.exports = [
     type: "groupchat",
     body: {
       text: "黄焖鸡米饭不好吃",
-      time: 1430978424229
+      time: Date.now() + 30
     }
   }
 ];

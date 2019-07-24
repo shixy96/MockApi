@@ -10,7 +10,7 @@ module.exports = app => ({
   "get /recommend": app.model.catalog.recommend,
 
   "get /getCatalogDetail": ctx => {
-    if (ctx.request.query.type === OPEN_CLASS_TYPE) {
+    if (ctx.request.query.type == OPEN_CLASS_TYPE) {
       ctx.body = app.model.catalog.catalogDetail.live;
     } else {
       ctx.body = app.model.catalog.catalogDetail.common;
