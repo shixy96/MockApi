@@ -7,7 +7,7 @@
         "id": 1,
         "body": "沉迷老师的课",
         "time": 1563880455628,
-        "from": {
+        "fromDetail": {
           "type": "CHAT_ROOM_PARTICIPANT",
           "userId": 123,
           "nick": "默兹因",
@@ -22,7 +22,7 @@
         "body": "看，这是我自己在说话哦",
         "self": true,
         "time": 1563880455628,
-        "from": {
+        "fromDetail": {
           "type": "CHAT_ROOM_PARTICIPANT",
           "userId": 1635869,
           "nick": "小希妹纸",
@@ -35,7 +35,7 @@
         "id": 3,
         "body": "这边是说一段话的样式，很长的一段话哦，啊啊啊啊啊啊，注意左右行间距哦",
         "time": 1563880455628,
-        "from": {
+        "fromDetail": {
           "type": "CHAT_ROOM_PARTICIPANT",
           "userId": 123,
           "nick": "默兹因",
@@ -48,7 +48,7 @@
         "id": 4,
         "body": "老师讲的非常好，哈哈哈",
         "time": 1563880455628,
-        "from": {
+        "fromDetail": {
           "type": "CHAT_ROOM_PARTICIPANT",
           "userId": 123,
           "nick": "默兹因",
@@ -63,7 +63,7 @@
         "body": "这边是说一段话的样式，很长的一段话哦，啊啊啊啊啊啊，注意左右行间距哦。看，这是我自己在说话哦",
         "self": true,
         "time": 1563880455628,
-        "from": {
+        "fromDetail": {
           "type": "CHAT_ROOM_PARTICIPANT",
           "userId": 1635869,
           "nick": "小希妹纸",
@@ -76,7 +76,7 @@
         "id": 6,
         "body": "12314564545156145165",
         "time": 1563880455628,
-        "from": {
+        "fromDetail": {
           "type": "CHAT_ROOM_PARTICIPANT",
           "userId": 123,
           "nick": "默兹因",
