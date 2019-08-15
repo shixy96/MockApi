@@ -1,0 +1,10 @@
+{
+  "allowPayType": [0, 5, 3],
+  "description": null,
+  "endTime": 1534757606000,
+  "name": "小学教师资格证",
+  "price": 0,
+  "schoolId": 0,
+  "startTime": 1534757606000,
+  "type": 2
+}
