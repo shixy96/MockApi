@@ -1,6 +1,7 @@
 const OPEN_CLASS_TYPE = 9;
 const SELF_COURSE = 1;
-const teacher_catalogId = "5b7fd723eb3a9440d057467d";
+const teacher_written_exam_catalogId = "5b7fd723eb3a9440d057467d";
+const teacher_review_catalogId = "5be15f1820a06054f0045237";
 const zk_catalogId = "5b7fd723eb3a9440d057467b";
 const bachelorEnglish_catalogId = "5b7fd723eb3a9440d057467c";
 
@@ -24,8 +25,10 @@ module.exports = app => ({
       discountAmount: 50000
     };
     let campaignData = {};
-    if (catalogId == teacher_catalogId) {
-      campaignData = app.model.catalog.campaignDetail.teacher;
+    if (catalogId == teacher_review_catalogId) {
+      campaignData = app.model.catalog.campaignDetail.teacherReview;
+    }else if (catalogId == teacher_written_exam_catalogId) {
+      campaignData = app.model.catalog.campaignDetail.teacherIntroduce;
     } else if (catalogId == zk_catalogId) {
       campaignData = app.model.catalog.campaignDetail.zhukao;
     } else if (catalogId == bachelorEnglish_catalogId) {

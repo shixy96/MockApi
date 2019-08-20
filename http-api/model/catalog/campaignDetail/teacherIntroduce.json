@@ -1,0 +1,63 @@
+{
+  "shareGainInfo": null,
+  "id": "2",
+  "type": 2,
+  "name": "2019上半年教师资格证考试综合素质真题啊啊啊啊啊啊啊啊",
+  "subName": "数位金牌讲师循环直播授课，全程直播实时互动！数位金牌讲师循环直播授课，全程直播实时互动！",
+  "schoolName": "云考点",
+  "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi_item.png",
+  "iconImg": "http://qc.feifanuniv.com/secure/useravatar?ownerId=lisy&avatarId=11909&s=48",
+  "adsHtml": "http://m.dev.qingshuxuetang.com/app/teacher_certify_introduce.html?campaignId=5b7fd723eb3a9440d057467d",
+  "adsImgs": ["https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png"],
+  "adsVideo": null,
+  "termOfValidity": "",
+  "createdTime": "",
+  "tags": [{ "id": 1, "name": "初级会计师" }, { "id": 2, "name": "会计冲刺课" }, { "id": 3, "name": "会计冲刺课" }, { "id": 4, "name": "笔试" }, { "id": 5, "name": "笔试" }, { "id": 6, "name": "初级会计师" }, { "id": 7, "name": "笔试" }],
+  "features": {},
+  "catalogs": [{
+    "id": "5be1510820a06054f00451b0",
+    "serialNum": "59e07f5e-589c-4d4e-8632-1a5ecac0bace",
+    "name": "幼儿教师资格证面试通关课",
+    "description": "幼儿",
+    "url": null,
+    "type": 1,
+    "coverImgs": [
+      "https://s3.cn-north-1.amazonaws.com.cn/discovery/teacher_certi/teacher_certi.png"
+    ],
+    "tags": ["幼儿"],
+    "purchasable": true,
+    "selfSupport": true,
+    "createdTime": null,
+    "typeName": "课程包",
+    "referCampaign": null,
+    "duration": null,
+    "originalVideoUrl": null,
+    "courseId": null,
+    "courseName": null,
+    "popularity": null,
+    "highlightedStrsInName": null
+  },
+  {
+    "id": "5be1510820a06054f00451b1",
+    "serialNum": "59e07f5e-589c-4d4e-8632-1a5ecac0bad1",
+    "name": "小学语文教师资格证面试通关课",
+    "description": "小学语文",
+    "url": null,
+    "type": 1,
+    "coverImgs": [
+      "https://s3.cn-north-1.amazonaws.com.cn/discovery/teacher_certi/teacher_certi.png"
+    ],
+    "tags": ["小学"],
+    "purchasable": true,
+    "selfSupport": true,
+    "createdTime": null,
+    "typeName": "课程包",
+    "referCampaign": null,
+    "duration": null,
+    "originalVideoUrl": null,
+    "courseId": null,
+    "courseName": null,
+    "popularity": null,
+    "highlightedStrsInName": null
+  }]
+}
