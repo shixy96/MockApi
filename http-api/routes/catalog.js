@@ -1,9 +1,9 @@
 const OPEN_CLASS_TYPE = 9;
 const SELF_COURSE = 1;
-const teacher_written_exam_catalogId = "5b7fd723eb3a9440d057467d";
-const teacher_review_catalogId = "5be15f1820a06054f0045237";
-const zk_catalogId = "5b7fd723eb3a9440d057467b";
-const bachelorEnglish_catalogId = "5b7fd723eb3a9440d057467c";
+const TEACHER_WRITTEN_EXAM_CATALOG_ID = "5b7fd723eb3a9440d057467d";
+const TEACHER_REVIEW_CATALOG_ID = "5be15f1820a06054f0045237";
+const ZK_CATALOG_ID = "5b7fd723eb3a9440d057467b";
+const BACHELOR_ENGLISH_CATALOG_ID = "5b7fd723eb3a9440d057467c";
 
 module.exports = app => ({
   "get /search": app.model.catalog.search,
@@ -25,13 +25,13 @@ module.exports = app => ({
       discountAmount: 50000
     };
     let campaignData = {};
-    if (catalogId == teacher_review_catalogId) {
+    if (catalogId == TEACHER_REVIEW_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.teacherReview;
-    }else if (catalogId == teacher_written_exam_catalogId) {
+    }else if (catalogId == TEACHER_WRITTEN_EXAM_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.teacherIntroduce;
-    } else if (catalogId == zk_catalogId) {
+    } else if (catalogId == ZK_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.zhukao;
-    } else if (catalogId == bachelorEnglish_catalogId) {
+    } else if (catalogId == BACHELOR_ENGLISH_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.english;
     }
     ctx.body = {
