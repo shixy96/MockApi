@@ -5,7 +5,7 @@ module.exports = {
     dev: "http://m.dev.qingshuxuetang.com/qingshu-api",
     ppe: "http://m.ppe.qingshuxuetang.com/qingshu-api"
   },
-  proxyPath: {
+  hostPath: {
     dev: "m.dev.qingshuxuetang.com",
     ppe: "mppe.qingshuxuetang.com"
   }

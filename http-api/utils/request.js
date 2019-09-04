@@ -2,7 +2,7 @@ const request = require("request");
 const config = require("../config/config");
 
 const prev = config.apiPath[process.env.NODE_ENV] + config.version;
-const host = config.proxyPath[process.env.NODE_ENV];
+const host = config.hostPath[process.env.NODE_ENV];
 
 const TIME_OUT = 30000;
 
