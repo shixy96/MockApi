@@ -1,5 +1,6 @@
-const { loadDirection } = require("./utils/loader");
+const { loadDirection } = require("../utils/loader");
 const Router = require("koa-router");
+const path = require("path");
 
 function initRouter(app) {
   const router = new Router();

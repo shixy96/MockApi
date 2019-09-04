@@ -5,8 +5,14 @@ const TEACHER_REVIEW_CATALOG_ID = "5be15f1820a06054f0045237";
 const ZK_CATALOG_ID = "5b7fd723eb3a9440d057467b";
 const BACHELOR_ENGLISH_CATALOG_ID = "5b7fd723eb3a9440d057467c";
 
+const apiService = require("../service/apiService.js")
+
 module.exports = app => ({
-  "get /search": app.model.catalog.search,
+  "get /search": async ctx => {
+    let { query, headers } = ctx.request;
+    let data = await apiService.catalog.search(query, headers);
+    ctx.body = data;
+  },
 
   "get /recommend": app.model.catalog.recommend,
 
@@ -27,7 +33,7 @@ module.exports = app => ({
     let campaignData = {};
     if (catalogId == TEACHER_REVIEW_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.teacherReview;
-    }else if (catalogId == TEACHER_WRITTEN_EXAM_CATALOG_ID) {
+    } else if (catalogId == TEACHER_WRITTEN_EXAM_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.teacherIntroduce;
     } else if (catalogId == ZK_CATALOG_ID) {
       campaignData = app.model.catalog.campaignDetail.zhukao;
