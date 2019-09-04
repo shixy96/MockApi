@@ -23,6 +23,9 @@ npm run mock
 ├── routes                     // 路由定制
 │   ├── account.js
 |   └── purchase.js
+├── service                    // 转发, 数据处理
+│   ├── account.js
+|   └── purchase.js
 ├── model                      // 假数据json模型
 │   ├── account
 │   |   └── queryBalance.json
