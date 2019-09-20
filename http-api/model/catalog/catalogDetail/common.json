@@ -705,12 +705,17 @@
 					"leafNode" : false
 				}
 			],
-			"teacherInfo" : {
+			"teacherInfo" : [{
 				"teacherName" : "张老师",
 				"teacherIntro" : "国家985师范院校特级教师，教育学硕士学位，发表过多篇教师考试论文，被刊载在各大知名教育学术论坛。长期从事素质考试模块，擅长中学教资考试难点、重点解析。",
 				"teacherPhotoUrl" : "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/course/bpartner/icon_ykd2.png",
 				"teacherTags" : ["985老师","先进老师","优秀青年教职工"]
-			}
+			},{
+				"teacherName" : "张老师",
+				"teacherIntro" : "国家985师范院校特级教师，教育学硕士学位，发表过多篇教师考试论文，被刊载在各大知名教育学术论坛。长期从事素质考试模块，擅长中学教资考试难点、重点解析。",
+				"teacherPhotoUrl" : "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/course/bpartner/icon_ykd2.png",
+				"teacherTags" : ["985老师","先进老师","优秀青年教职工"]
+			}]
 		},
 		"liveDetail" : null,
 		"cats" : [ "教师资格证", "中等职业" ],
