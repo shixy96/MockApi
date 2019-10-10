@@ -28,8 +28,8 @@ function initRouter(app) {
 
 function initModel() {
   const models = {};
-  loadDirection("model/develop", (_properties, model) => {
-    const properties = _properties.slice(2);
+  loadDirection("model", (_properties, model) => {
+    const properties = _properties.slice(1);
     properties.reduce((target, property, index) => {
       let obj;
       if (index === properties.length - 1) {

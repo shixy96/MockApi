@@ -26,14 +26,11 @@ npm run mock
 ├── service                    // 转发, 数据处理
 |   └── apiService.js
 ├── model                      // 假数据json模型
-|   ├── develop                // 开发用数据模型
-│   │   ├── account
-│   │   |   └── queryBalance.json
-│   │   └── purchase
-│   │       └── history
-│   │           └── v6.3.json
-│   │
-│   └── test                   // 测试用数据模型
+│   ├── account
+│   |   └── queryBalance.json
+│   └── purchase
+│       └── history
+│           └── v6.3.json
 
 ```
 
