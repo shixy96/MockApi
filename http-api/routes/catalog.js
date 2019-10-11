@@ -1,4 +1,5 @@
 const OPEN_CLASS_TYPE = 9;
+const MATERIAL_TYPE = 10;
 const SELF_COURSE = 1;
 const TEACHER_WRITTEN_EXAM_CATALOG_ID = "5b7fd723eb3a9440d057467d";
 const TEACHER_REVIEW_CATALOG_ID = "5be15f1820a06054f0045237";
@@ -19,7 +20,9 @@ module.exports = app => ({
   "get /getCatalogDetail": ctx => {
     if (ctx.request.query.type == OPEN_CLASS_TYPE) {
       ctx.body = app.model.catalog.catalogDetail.live;
-    } else {
+    } else if (ctx.request.query.type == MATERIAL_TYPE) {
+      ctx.body = app.model.catalog.catalogDetail.material;
+    }else {
       ctx.body = app.model.catalog.catalogDetail.common;
     }
   },
