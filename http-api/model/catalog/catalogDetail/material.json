@@ -69,7 +69,180 @@
       "materialTree":[
         {
           "id":null,
-          "name":"笔试资料",
+          "name":"笔试资料1",
+          "iconImg":null,
+          "url":null,
+          "type":0,
+          "size":null,
+          "subNodeList":[
+            {
+              "id":null,
+              "name":"教资小学语文笔试资料第一章",
+              "iconImg":null,
+              "url":null,
+              "type":0,
+              "size":null,
+              "subNodeList":[
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章1",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_2027666_202766620190826154919045.png?e=1570931488&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:Bvbm9JY6NFIIBCOWzjBa-LkMpCo=",
+                  "type":1,
+                  "size":11,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章2",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章3",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章4",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章5",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章6",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章7",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第一章8",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                }
+              ]
+            },
+            {
+              "id":null,
+              "name":"教资小学语文笔试资料第二章",
+              "type":0,
+              "video":null,
+              "material":null,
+              "subNodeList":[
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章1",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章2",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章3",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章4",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章5",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章6",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章7",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                },
+                {
+                  "id":null,
+                  "name":"教资小学语文笔试资料第二章8",
+                  "iconImg":"https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
+                  "url":"https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+                  "type":1,
+                  "size":253,
+                  "subNodeList":null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id":null,
+          "name":"笔试资料2",
           "iconImg":null,
           "url":null,
           "type":0,
