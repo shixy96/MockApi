@@ -1,3 +1,4 @@
+const fs = require("fs");
 const { loadDirection } = require("../utils/loader");
 const Router = require("koa-router");
 
@@ -41,7 +42,14 @@ function initModel() {
       return obj;
     }, models);
   });
-  return models;
+
+  fs.writeFileSync(
+    "config/model.config.js",
+    "module.exports = " + JSON.stringify(models),
+    "utf8"
+  );
+
+  return require("../config/model.config");
 }
 
 module.exports = { initRouter, initModel };

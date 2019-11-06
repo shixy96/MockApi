@@ -2,7 +2,9 @@ const uuidv4 = require("uuid/v4");
 
 let extra_info = [];
 
-module.exports = app => ({
+const mock = require("../app/mock-api");
+
+module.exports = (app = new mock()) => ({
   "get /getShareInfo": ctx => {
     const { shareId } = ctx.request.query;
     let shareInfo = app.model.x.shareInfo;
@@ -31,7 +33,7 @@ module.exports = app => ({
       schoolId: schoolId,
       contentId: contentId,
       contentType: contentType,
-      createTime: Date().now(),
+      createTime: Date.now(),
       referCampaign: "xxxx",
       title: title,
       content: content,

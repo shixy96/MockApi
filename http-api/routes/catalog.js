@@ -8,7 +8,9 @@ const BACHELOR_ENGLISH_CATALOG_ID = "5b7fd723eb3a9440d057467c";
 
 const apiService = require("../service/apiService.js")
 
-module.exports = app => ({
+const mock = require("../app/mock-api");
+
+module.exports = (app = new mock()) => ({
   "get /search": async ctx => {
     let { query, headers } = ctx.request;
     let data = await apiService.catalog.search(query, headers);

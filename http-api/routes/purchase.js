@@ -1,4 +1,6 @@
-module.exports = app => ({
+const mock = require("../app/mock-api");
+
+module.exports = (app = new mock()) => ({
   "get /history": app.model.purchase.history["v6.3"],
 
   "get /getOffers": ctx => {

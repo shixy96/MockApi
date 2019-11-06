@@ -22,7 +22,7 @@ function loadFile(directory, file, callback) {
   let filePath = path.join(directory, file);
   const content = readFile(filePath);
   const properties = getProperties(filePath);
-  callback(properties, content);
+  callback(properties, content, filePath);
 }
 
 function loadDirection(directory, callback) {
