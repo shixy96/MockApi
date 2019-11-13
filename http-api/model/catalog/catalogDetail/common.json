@@ -703,6 +703,46 @@
 						}
 					],
 					"leafNode" : false
+				},
+				{
+					"id": null,
+					"name": "试卷",
+					"type": 100,
+					"video": null,
+					"material": null,
+					"subNodeList": [
+						{
+							"id": "5c29f73507d638690388d56c",
+							"name": "中学德育-05【第五节中学德育原则以及途径与方法】",
+							"type": 2,
+							"video": null,
+							"material": {
+								"id": "5c29f73507d638690388d56d",
+								"name": "教资小学语文笔试资料第一章2",
+								"url": "https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+								"free": true,
+								"size": 253
+							},
+							"subNodeList": null,
+							"leafNode": true
+						},
+						{
+							"id": "5c29f73507d638690388d56d",
+							"name": "【中学德育】-06【第五节中学德育原则以及途径与方法】",
+							"type": 2,
+							"video": null,
+							"material": {
+								"id": "5c29f73507d638690388d56d",
+								"name": "教资小学语文笔试资料第一章2",
+								"url": "https://u.qsxt.info/degree/testdg_1621797_162179720190320160712074.pptx?e=1570864535&token=pCyqfXl1B4KjNCHB-hdnyaEhdLgvUYKmxX8Hl4kT:ebHHvBmypCSkja-tz0VDywjvNqg=",
+								"free": true,
+								"size": 253
+							},
+							"subNodeList": null,
+							"leafNode": true
+						}
+					],
+					"leafNode": false
 				}
 			],
 			"teacherInfo" : [{
