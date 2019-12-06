@@ -157,7 +157,7 @@
 							{
 								"componentType" : "TopSearch",
 								"title" : "热搜榜",
-								"dataUrl" : "/catalog/keyword?type=2",
+								"dataUrl" : "https://api.qingshuxuetang.com/v7_4/catalog/keyword?type=2",
 								"render" : {
 									"horizontal" : 4,
 									"vertical" : 2
