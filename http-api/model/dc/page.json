@@ -204,7 +204,28 @@
 										}
 									}
 								}
-							}
+                            },
+                            {
+                                "componentType": "RecommendList",
+                                "title": "课程",
+                                "content": {
+                                    "size": 3,
+                                    "dataUrl": "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=8",
+                                    "render": {
+                                        "style": "CatalogCourseImage",
+                                        "elements": {
+                                            "tag": true,
+                                            "tagLimit": 2,
+                                            "price": true,
+                                            "duration": true,
+                                            "popularity": true,
+                                            "thumbnail": false,
+                                            "institution": true,
+                                            "document": false
+                                        }
+                                    }
+                                }
+                            }
 						]
 					},
 					{
