@@ -206,6 +206,31 @@
 								}
                             },
                             {
+                                "componentType": "ResourceArea",
+                                "title": "上新课程",
+                                "style": "Change",
+                                "content":
+                                {
+                                    "size": 3,
+                                    "dataUrl": "http://api.dev.qingshuxuetang.com/v7_4/catalog/recommend?type=11&resourceId=5c3fae3c992d9336f838f5cd&resourceType=8",
+                                    "render":
+                                    {
+                                        "style": "CatalogCourseImage",
+                                        "elements":
+                                        {
+                                            "tag": true,
+                                            "tagLimit": 2,
+                                            "price": false,
+                                            "duration": true,
+                                            "popularity": true,
+                                            "thumbnail": false,
+                                            "institution": true,
+                                            "document": false
+                                        }
+                                    }
+                                }
+                            },
+                            {
                                 "componentType": "RecommendList",
                                 "title": "课程",
                                 "content": {
