@@ -182,8 +182,8 @@
 									"render" : {
 										"style" : "",
 										"elements" : {
-											"tag" : false,
-											"tagLimit" : 1,
+											"tag" : true,
+											"tagLimit" : 3,
 											"price" : false,
 											"duration" : false,
 											"popularity" : false,
@@ -204,7 +204,7 @@
 										"style" : "",
 										"elements" : {
 											"tag" : true,
-											"tagLimit" : 1,
+											"tagLimit" : 3,
 											"price" : false,
 											"duration" : false,
 											"popularity" : true,
@@ -218,7 +218,7 @@
 							{
 								"componentType" : "ResourceArea",
 								"title" : "上新课程",
-								"style" : "Change",
+								"style" : "Slide",
 								"content" : {
 									"size" : 3,
 									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/recommend?type=11&resourceId=5c3fae3c992d9336f838f5cd&resourceType=8",
