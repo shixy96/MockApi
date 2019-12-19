@@ -9,11 +9,9 @@ module.exports = (app = new mock()) => ({
     const { shareId } = ctx.request.query;
     let shareInfo = app.model.x.shareInfo;
     extra_info.forEach(info => shareInfo.push(info))
-    let result = shareInfo.filter(v => {
-      v.id === shareId;
-    });
-    ctx.body = result
-      ? ctx.model.fail
+    let result = shareInfo.find(v => v.id === shareId);
+    ctx.body = !result
+      ? app.model.fail
       : {
           hr: 0,
           message: "",

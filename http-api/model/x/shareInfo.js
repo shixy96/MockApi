@@ -65,5 +65,20 @@ module.exports = [
     free: null,
     structureInfo: null,
     promotionCode: null
+  },
+  {
+    id: "landing",
+    structureInfo: null,
+    schoolId: 0,
+    contentId: "4933",
+    contentType: "21",
+    createTime: 1576486352000,
+    referCampaign: null,
+    title: "落地页-标题",
+    url: "http://m.dev.qingshuxuetang.com/share/route?shareId=29b32d481cd99803afc092e3a4bfe64a",
+    tags: null,
+    free: false,
+    promotionCode: null,
+    selfSupport: null
   }
 ];
