@@ -5,7 +5,7 @@
 	"data" : {
 		"name" : "discoverypage",
 		"type" : "Discovery",
-		"version" : 834,
+		"version" : 1000,
 		"trackBehaviors" : [ "Enter", "Stay", "SwitchTab", "Slide", "Click" ],
 		"components" : [
 			{
@@ -23,7 +23,7 @@
 				"initialItem" : 0,
 				"items" : [
 					{
-						"name" : "精选",
+						"name" : "热门精选",
 						"icon" : "https://s3.cn-north-1.amazonaws.com.cn/discovery/navIcons/jz.png",
 						"components" : [
 							{
@@ -31,29 +31,19 @@
 								"autoplay" : 1000,
 								"duration" : 1000,
 								"initialItem" : 0,
-								"loop" : true,
+								"loop" : false,
 								"showIndicators" : true,
-								"touchable" : true,
+								"touchable" : false,
 								"render" : {
 									"style" : "Circular",
-									"width" : 1005,
-									"height" : 420
+									"width" : 1029,
+									"height" : 430
 								},
 								"items" : [
 									{
-										"contentId" : "5d8f3309bd940705f81cc636",
+										"contentId" : "5d9fe0fa0055ef413444f16b",
 										"contentType" : "CatalogCampaign",
-										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/dc_campaign_zhukao2.0.png"
-									},
-									{
-										"contentId" : "5d8f3309bd940705f81cc636",
-										"contentType" : "CatalogCampaign",
-										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/dc_campaign_teacher_written.png"
-									},
-									{
-										"contentId" : "5d8f3309bd940705f81cc636",
-										"contentType" : "CatalogCampaign",
-										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/dc_campaign_b_course_jiaozi.jpg"
+										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/dc_campaign_teacher_basic.png"
 									}
 								]
 							},
@@ -62,11 +52,11 @@
 								"items" : [
 									{
 										"title" : "财会金融类",
-										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 8(1).png",
+										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(1).png",
 										"href" : "home?category=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB"
 									},
 									{
-										"title" : "综合类",
+										"title" : "综合类类",
 										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6.png",
 										"href" : "home?category=%E7%BB%BC%E5%90%88%E7%B1%BB"
 									},
@@ -119,36 +109,16 @@
 							},
 							{
 								"componentType" : "Exercise",
-								"title" : "练习",
+								"title" : "练习入口",
 								"shamExamSubhead" : "模拟考",
 								"questionBankSubhead" : "题库练习"
-							},
-							{
-								"componentType" : "RecommendList",
-								"title" : "推荐课程",
-								"content" : {
-									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=8",
-									"render" : {
-										"style" : "CatalogCourseNoImage",
-										"elements" : {
-											"tag" : false,
-											"tagLimit" : 1,
-											"price" : false,
-											"duration" : false,
-											"popularity" : false,
-											"thumbnail" : false,
-											"institution" : false,
-											"document" : false
-										}
-									}
-								}
 							},
 							{
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -165,25 +135,74 @@
 								}
 							},
 							{
-								"componentType" : "TopSearch",
-								"title" : "热搜榜",
-								"dataUrl" : "https://api.qingshuxuetang.com/v7_4/catalog/keyword?type=2",
-								"render" : {
-									"horizontal" : 4,
-									"vertical" : 2
-								}
-							},
-							{
 								"componentType" : "RecommendList",
-								"title" : "资讯",
+								"title" : "资讯列表",
 								"content" : {
-									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=2",
+									"size" : 4,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=2&pageSize=4",
+									"showMore" : true,
 									"render" : {
 										"style" : "",
 										"elements" : {
 											"tag" : true,
 											"tagLimit" : 3,
+											"price" : false,
+											"duration" : false,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : false,
+											"document" : false
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "TopSearch",
+								"title" : "热搜榜",
+								"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/keyword?type=2",
+								"render" : {
+									"horizontal" : 2,
+									"vertical" : 4
+								}
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "推荐清单",
+								"style" : "Change",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=12&theme=1&offset=0&limit=12",
+									"showMore" : false,
+									"render" : {
+										"style" : "CatalogCourseImage",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 3,
+											"price" : true,
+											"duration" : true,
+											"popularity" : true,
+											"thumbnail" : true,
+											"institution" : true,
+                                            "document" : false,
+                                            "resource" : true,
+                                            "nicknamePhoto" : true
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "试卷区块",
+								"style" : "Slide",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=6&theme=2&offset=0&limit=12",
+									"showMore" : false,
+									"render" : {
+										"style" : "",
+										"elements" : {
+											"tag" : false,
+											"tagLimit" : 1,
 											"price" : false,
 											"duration" : false,
 											"popularity" : false,
@@ -195,11 +214,59 @@
 								}
 							},
 							{
-								"componentType" : "RecommendList",
-								"title" : "资料",
+								"componentType" : "ResourceArea",
+								"title" : "课程上新",
+								"style" : "Change",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=10",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=8&theme=2&offset=0&limit=12",
+									"showMore" : false,
+									"render" : {
+										"style" : "CatalogCourseNoImage",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 3,
+											"price" : true,
+											"duration" : true,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : true,
+											"document" : false
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "推荐视频",
+								"style" : "Slide",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=3&theme=1&offset=0&limit=12",
+									"showMore" : false,
+									"render" : {
+										"style" : "CatalogVideoRightImage",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 3,
+											"price" : false,
+											"duration" : true,
+											"popularity" : true,
+											"thumbnail" : true,
+											"institution" : false,
+											"document" : false
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "上新资料",
+								"style" : "Change",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=10&theme=2&offset=0&limit=12",
+									"showMore" : false,
 									"render" : {
 										"style" : "",
 										"elements" : {
@@ -216,17 +283,568 @@
 								}
 							},
 							{
-								"componentType" : "ResourceArea",
-								"title" : "上新课程",
-								"style" : "Slide",
+								"componentType" : "RecommendTabs",
+								"title" : "课程列表",
+								"editable" : false,
+								"editBtnName" : null,
+								"expandable" : false,
+								"sticky" : false,
+								"initialItem" : 0,
+								"items" : [
+									{
+										"name" : "热门精选",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "财会金融类",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "综合类",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E7%BB%BC%E5%90%88%E7%B1%BB&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "医药卫生类",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%8C%BB%E8%8D%AF%E5%8D%AB%E7%94%9F%E7%B1%BB&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "教师资格证",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "建筑工程类",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%BB%BA%E7%AD%91%E5%B7%A5%E7%A8%8B%E7%B1%BB&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "学历教育",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%AD%A6%E5%8E%86%E6%95%99%E8%82%B2&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "IT·互联网",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=IT%C2%B7%E4%BA%92%E8%81%94%E7%BD%91&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "媒体设计",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%AA%92%E4%BD%93%E8%AE%BE%E8%AE%A1&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "职场提升",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E8%81%8C%E5%9C%BA%E6%8F%90%E5%8D%87&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "电商营销",
+										"content" : {
+											"size" : 6,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E7%94%B5%E5%95%86%E8%90%A5%E9%94%80&pageSize=6",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 2,
+													"price" : false,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : false,
+													"document" : false
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"componentType" : "RecommendList",
+								"title" : "视频列表",
+								"content" : {
+									"size" : 5,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=3&pageSize=5",
+									"showMore" : false,
+									"render" : {
+										"style" : "CatalogVideoRightImage",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 3,
+											"price" : false,
+											"duration" : true,
+											"popularity" : true,
+											"thumbnail" : true,
+											"institution" : false,
+											"document" : false
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "RecommendList",
+								"title" : "试题列表",
+								"content" : {
+									"size" : 4,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=6&pageSize=4",
+									"showMore" : true,
+									"render" : {
+										"style" : "",
+										"elements" : {
+											"tag" : false,
+											"tagLimit" : 1,
+											"price" : false,
+											"duration" : false,
+											"popularity" : false,
+											"thumbnail" : false,
+											"institution" : false,
+											"document" : false
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "RecommendList",
+								"title" : "资料列表",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/recommend?type=11&resourceId=5c3fae3c992d9336f838f5cd&resourceType=8",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=10&pageSize=3",
+									"showMore" : true,
+									"render" : {
+										"style" : "",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 1,
+											"price" : false,
+											"duration" : false,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : false,
+											"document" : true
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "RecommendTabs",
+								"title" : "3",
+								"editable" : false,
+								"editBtnName" : null,
+								"expandable" : false,
+								"sticky" : false,
+								"initialItem" : 0,
+								"items" : [
+									{
+										"name" : "热门精选",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "财会金融类",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "综合类",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E7%BB%BC%E5%90%88%E7%B1%BB&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "医药卫生类",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%8C%BB%E8%8D%AF%E5%8D%AB%E7%94%9F%E7%B1%BB&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "教师资格证",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "建筑工程类",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%BB%BA%E7%AD%91%E5%B7%A5%E7%A8%8B%E7%B1%BB&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "学历教育",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%AD%A6%E5%8E%86%E6%95%99%E8%82%B2&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "IT·互联网",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=IT%C2%B7%E4%BA%92%E8%81%94%E7%BD%91&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "媒体设计",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E5%AA%92%E4%BD%93%E8%AE%BE%E8%AE%A1&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "职场提升",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E8%81%8C%E5%9C%BA%E6%8F%90%E5%8D%87&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									},
+									{
+										"name" : "电商营销",
+										"content" : {
+											"size" : 3,
+											"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E7%94%B5%E5%95%86%E8%90%A5%E9%94%80&pageSize=3",
+											"showMore" : true,
+											"render" : {
+												"style" : "CatalogCourseNoImage",
+												"elements" : {
+													"tag" : true,
+													"tagLimit" : 1,
+													"price" : true,
+													"duration" : true,
+													"popularity" : true,
+													"thumbnail" : false,
+													"institution" : true,
+													"document" : false
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "课程",
+								"style" : "Change",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=8&theme=1&offset=0&limit=12",
+									"showMore" : false,
 									"render" : {
 										"style" : "CatalogCourseImage",
 										"elements" : {
 											"tag" : true,
-											"tagLimit" : 2,
+											"tagLimit" : 1,
 											"price" : true,
 											"duration" : true,
 											"popularity" : true,
@@ -238,16 +856,41 @@
 								}
 							},
 							{
-								"componentType" : "RecommendList",
-								"title" : "课程",
+								"componentType" : "ResourceArea",
+								"title" : "2",
+								"style" : "Change",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=8",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=8&theme=1&offset=0&limit=12",
+									"showMore" : false,
 									"render" : {
 										"style" : "CatalogCourseImage",
 										"elements" : {
 											"tag" : true,
-											"tagLimit" : 2,
+											"tagLimit" : 1,
+											"price" : true,
+											"duration" : true,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : true,
+											"document" : false
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "1",
+								"style" : "Change",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=8&theme=1&offset=0&limit=12",
+									"showMore" : false,
+									"render" : {
+										"style" : "CatalogCourseImage",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 1,
 											"price" : true,
 											"duration" : true,
 											"popularity" : true,
@@ -262,13 +905,14 @@
 					},
 					{
 						"name" : "财会金融类",
-						"icon" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 8(1).png",
+						"icon" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(1).png",
 						"components" : [
 							{
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -298,22 +942,22 @@
 										"href" : "search?cats=%E7%BB%8F%E6%B5%8E%E5%B8%88"
 									},
 									{
-										"title" : "2",
-										"imageUrl" : "",
+										"title" : "审计",
+										"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(1).png",
 										"href" : "search?cats=%E5%AE%A1%E8%AE%A1%E5%B8%88"
 									},
 									{
-										"title" : "3",
+										"title" : "银行资格",
 										"imageUrl" : "",
 										"href" : "search?cats=%E9%93%B6%E8%A1%8C%E8%B5%84%E6%A0%BC"
 									},
 									{
-										"title" : "4",
+										"title" : "证券从业",
 										"imageUrl" : "",
 										"href" : "search?cats=%E8%AF%81%E5%88%B8%E4%BB%8E%E4%B8%9A"
 									},
 									{
-										"title" : "5",
+										"title" : "基金从业",
 										"imageUrl" : "",
 										"href" : "search?cats=%E5%9F%BA%E9%87%91%E4%BB%8E%E4%B8%9A"
 									},
@@ -349,9 +993,9 @@
 									}
 								],
 								"iconMore" : {
-									"index" : 7,
-									"title" : "我问",
-									"imageUrl" : ""
+									"index" : 3,
+									"title" : "全部",
+									"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/discover_entrance_all_cat.png"
 								}
 							},
 							{
@@ -364,7 +1008,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -382,20 +1027,21 @@
 							},
 							{
 								"componentType" : "RecommendList",
-								"title" : "推荐列表",
+								"title" : "推荐课程",
 								"content" : {
-									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=8&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB",
+									"size" : 5,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=8&cats=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB&pageSize=5",
+									"showMore" : true,
 									"render" : {
 										"style" : "CatalogCourseNoImage",
 										"elements" : {
-											"tag" : false,
+											"tag" : true,
 											"tagLimit" : 1,
-											"price" : false,
-											"duration" : false,
-											"popularity" : false,
+											"price" : true,
+											"duration" : true,
+											"popularity" : true,
 											"thumbnail" : false,
-											"institution" : false,
+											"institution" : true,
 											"document" : false
 										}
 									}
@@ -406,6 +1052,29 @@
 								"title" : "练习入口",
 								"shamExamSubhead" : "练习入口",
 								"questionBankSubhead" : "练习入口"
+							},
+							{
+								"componentType" : "ResourceArea",
+								"title" : "ddddd",
+								"style" : "Change",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/recommend?resourceType=2&theme=2&cat=%E8%B4%A2%E4%BC%9A%E9%87%91%E8%9E%8D%E7%B1%BB&offset=0&limit=12",
+									"showMore" : false,
+									"render" : {
+										"style" : "CatalogCourseImage",
+										"elements" : {
+											"tag" : false,
+											"tagLimit" : 1,
+											"price" : true,
+											"duration" : true,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : false,
+											"document" : false
+										}
+									}
+								}
 							}
 						]
 					},
@@ -417,7 +1086,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E7%BB%BC%E5%90%88%E7%B1%BB",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E7%BB%BC%E5%90%88%E7%B1%BB",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -458,6 +1128,11 @@
 										"href" : "search?cats=%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E5%B8%88"
 									},
 									{
+										"title" : "社会工作者",
+										"imageUrl" : "",
+										"href" : "search?cats=%E7%A4%BE%E4%BC%9A%E5%B7%A5%E4%BD%9C%E8%80%85"
+									},
+									{
 										"title" : "法考",
 										"imageUrl" : "",
 										"href" : "search?cats=%E6%B3%95%E8%80%83"
@@ -491,12 +1166,60 @@
 										"title" : "理财规划师",
 										"imageUrl" : "",
 										"href" : "search?cats=%E7%90%86%E8%B4%A2%E8%A7%84%E5%88%92%E5%B8%88"
+									},
+									{
+										"title" : "公务员",
+										"imageUrl" : "",
+										"href" : "search?cats=%E5%85%AC%E5%8A%A1%E5%91%98"
 									}
 								],
 								"iconMore" : {
 									"index" : 3,
 									"title" : "全部",
 									"imageUrl" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/discover_entrance_all_cat.png"
+								}
+							},
+							{
+								"componentType" : "RecommendList",
+								"title" : "资料",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=10&cats=%E7%BB%BC%E5%90%88%E7%B1%BB&pageSize=3",
+									"showMore" : true,
+									"render" : {
+										"style" : "",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 1,
+											"price" : false,
+											"duration" : false,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : false,
+											"document" : true
+										}
+									}
+								}
+							},
+							{
+								"componentType" : "OpenClass",
+								"content" : {
+									"size" : 3,
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E7%BB%BC%E5%90%88%E7%B1%BB",
+									"showMore" : true,
+									"render" : {
+										"style" : "OpenClassNoImage",
+										"elements" : {
+											"tag" : true,
+											"tagLimit" : 1,
+											"price" : false,
+											"duration" : false,
+											"popularity" : true,
+											"thumbnail" : false,
+											"institution" : false,
+											"document" : false
+										}
+									}
 								}
 							}
 						]
@@ -509,7 +1232,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E5%8C%BB%E8%8D%AF%E5%8D%AB%E7%94%9F%E7%B1%BB",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E5%8C%BB%E8%8D%AF%E5%8D%AB%E7%94%9F%E7%B1%BB",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -586,7 +1310,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E6%95%99%E5%B8%88%E8%B5%84%E6%A0%BC%E8%AF%81",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -618,7 +1343,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E5%BB%BA%E7%AD%91%E5%B7%A5%E7%A8%8B%E7%B1%BB",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E5%BB%BA%E7%AD%91%E5%B7%A5%E7%A8%8B%E7%B1%BB",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -650,7 +1376,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E5%AD%A6%E5%8E%86%E6%95%99%E8%82%B2",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E5%AD%A6%E5%8E%86%E6%95%99%E8%82%B2",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -682,7 +1409,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=IT%C2%B7%E4%BA%92%E8%81%94%E7%BD%91",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=IT%C2%B7%E4%BA%92%E8%81%94%E7%BD%91",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -714,7 +1442,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E5%AA%92%E4%BD%93%E8%AE%BE%E8%AE%A1",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E5%AA%92%E4%BD%93%E8%AE%BE%E8%AE%A1",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -746,7 +1475,8 @@
 								"componentType" : "OpenClass",
 								"content" : {
 									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E8%81%8C%E5%9C%BA%E6%8F%90%E5%8D%87",
+									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_5/catalog/search?catalogType=9&pageSize=3&cats=%E8%81%8C%E5%9C%BA%E6%8F%90%E5%8D%87",
+									"showMore" : false,
 									"render" : {
 										"style" : "OpenClassNoImage",
 										"elements" : {
@@ -774,32 +1504,6 @@
 						"name" : "电商营销",
 						"icon" : "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/discoveryImg/分组 3 copy 6(3).png",
 						"components" : [
-							{
-								"componentType" : "OpenClass",
-								"content" : {
-									"size" : 3,
-									"dataUrl" : "http://api.dev.qingshuxuetang.com/v7_4/catalog/search?catalogType=9&cats=%E7%94%B5%E5%95%86%E8%90%A5%E9%94%80",
-									"render" : {
-										"style" : "OpenClassNoImage",
-										"elements" : {
-											"tag" : true,
-											"tagLimit" : 1,
-											"price" : false,
-											"duration" : false,
-											"popularity" : true,
-											"thumbnail" : false,
-											"institution" : false,
-											"document" : false
-										}
-									}
-								}
-							},
-							{
-								"componentType" : "Exercise",
-								"title" : "电商营销",
-								"shamExamSubhead" : "电商营销",
-								"questionBankSubhead" : "电商营销"
-							},
 							{
 								"componentType" : "NavIcons",
 								"items" : [
