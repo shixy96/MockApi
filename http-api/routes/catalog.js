@@ -1,5 +1,6 @@
 const OPEN_CLASS_TYPE = 9;
 const MATERIAL_TYPE = 10;
+const CONTENT_BAG = 12;
 const SELF_COURSE = 1;
 const TEACHER_WRITTEN_EXAM_CATALOG_ID = "5d8f3309bd940705f81cc636";
 const TEACHER_REVIEW_CATALOG_ID = "5be15f1820a06054f0045237";
@@ -24,7 +25,9 @@ module.exports = (app = new mock()) => ({
       ctx.body = app.model.catalog.catalogDetail.live;
     } else if (ctx.request.query.type == MATERIAL_TYPE) {
       ctx.body = app.model.catalog.catalogDetail.material;
-    }else {
+    } else if (ctx.request.query.type == CONTENT_BAG) {
+      ctx.body = app.model.catalog.catalogDetail.contentBag;
+    } else {
       ctx.body = app.model.catalog.catalogDetail.common;
     }
   },
