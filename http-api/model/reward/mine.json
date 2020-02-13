@@ -5,12 +5,19 @@
      "totalBonusPoints" : 150,
      "totalBonusCoins" : 22,
      "currentLevel" : {
-        "id" : 3,
-        "level" : 3,
-        "name" : "超级学霸",
+        "id" : 1,
+        "level" : 1,
+        "name" : "学员",
         "bonusPointsGap" : 127,
         "nextThreshold" : 226
      },
+		"nextLevel":{
+			"id": 4,
+			"level": 4,
+			"name": "超级学霸",
+			"bonusPointsGap": 193,
+			"nextThreshold": 419
+		},
      "rules" : [
         {
            "id" : 1,
