@@ -37,17 +37,17 @@
            "category" : 2,
            "ruleDetails" : [
               {
-                 "threshold" : 5,
+                 "threshold" : 300,
                  "bonusPoints" : 5,
                  "bonusCoins" : 2
               },
               {
-                 "threshold" : 15,
+                 "threshold" : 900,
                  "bonusPoints" : 10,
                  "bonusCoins" : 6
               },
               {
-                 "threshold" : 40,
+                 "threshold" : 1800,
                  "bonusPoints" : 15,
                  "bonusCoins" : 12
               }
@@ -96,12 +96,12 @@
         },
         {
            "type" : 2,
-           "progress" : 600000,
+           "progress" : 600,
            "targetDesc" : "继续学习15分钟"
         },
         {
            "type" : 3,
-           "progress" : 8,
+           "progress" : 12,
            "targetDesc" : "再做20道题目"
         },
         {
