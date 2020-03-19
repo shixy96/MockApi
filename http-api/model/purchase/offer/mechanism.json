@@ -1,10 +1,38 @@
-{
-  "allowPayType": [0, 5, 3],
-  "description": null,
-  "endTime": 1534757606000,
-  "name": "小学教师资格证",
-  "price": 0,
-  "schoolId": 0,
-  "startTime": 1534757606000,
-  "type": 2
-}
+[
+  {
+    "id": 1,
+    "catalogId": "5d8f3309bd940705f81cc001",
+    "allowPayType": [0, 5, 3],
+    "description": null,
+    "endTime": 1534757606000,
+    "name": "课程精讲班",
+    "price": 30,
+    "schoolId": 0,
+    "startTime": 1534757606000,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "catalogId": "5d8f3309bd940705f81cc5fe002",
+    "allowPayType": [0, 5, 3],
+    "description": null,
+    "endTime": 1534757606000,
+    "name": "考前冲刺班(9月份开班)",
+    "price": 40000,
+    "schoolId": 0,
+    "startTime": 1534757606000,
+    "type": 2
+  },
+  {
+    "id": 3,
+    "catalogId": "5d8f3309bd940705f81cc003",
+    "allowPayType": [0, 5, 3],
+    "description": null,
+    "endTime": 1534757606000,
+    "name": "课程精讲班+考前冲刺班(冲刺班9月份开班)",
+    "price": 70000,
+    "schoolId": 0,
+    "startTime": 1534757606000,
+    "type": 2
+  }
+]

@@ -17,7 +17,7 @@ module.exports = (app = new mock()) => ({
       result.push(offer);
     });
     result = {
-      data: result,
+      data: offerTmp,
       extraData: null,
       hr: 0,
       message: "成功"
