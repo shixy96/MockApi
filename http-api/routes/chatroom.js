@@ -7,5 +7,7 @@ module.exports = (app = new mock()) => ({
 
   "get /interaction/getPresenceDetail": app.model.interaction.getPresenceDetail,
   
-  "post /interaction/submit": app.model.interaction.submit
+  "post /interaction/submit": app.model.interaction.submit,
+
+  "get /interaction/search": app.model.interaction.search
 });

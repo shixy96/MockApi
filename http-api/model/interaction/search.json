@@ -1,0 +1,123 @@
+{
+	"hr" : 0,
+	"message" : "成功",
+	"data" : [
+		{
+			"id" : "1235651",
+			"title" : "互动一",
+			"roomId" : "dvsdvds124-456",
+			"beginTime" : 924000,
+			"endTime" : 2124000,
+			"status" : 3,
+			"type" : 1,
+			"content" : {
+				"id" : "1513331",
+				"description" : "下列选项中，最军队VS最军队VS最军队VS最军队VS的一项",
+				"type" : 2,
+				"options" : [
+					{
+						"label" : "A",
+						"description" : "选项1"
+					},
+					{
+						"label" : "B",
+						"description" : "选项2"
+					},
+					{
+						"label" : "C",
+						"description" : "选项3"
+					},
+					{
+						"label" : "D",
+						"description" : "选项4"
+					}
+				],
+				"answer" : "AB",
+				"analysis" : "答案解析答案解析答案解析",
+				"tags" : null
+            },
+            "selfPresenceDetail": {
+                "userResponse": "CD",
+                "submitTime": 1224000
+            }
+		},
+		{
+			"id" : "1235652",
+			"title" : "互动二互动二互动二互动二互动二",
+			"roomId" : "dvsdvds124-456",
+			"beginTime" : 924000,
+			"endTime" : 2124000,
+			"status" : 3,
+			"type" : 1,
+			"content" : {
+				"id" : "1513331213",
+				"description" : "下列选项中，最军队VS最军队VS最军队VS最军队VS的一项",
+				"type" : 1,
+				"options" : [
+					{
+						"label" : "A",
+						"description" : "选项1"
+					},
+					{
+						"label" : "B",
+						"description" : "选项2"
+					},
+					{
+						"label" : "C",
+						"description" : "选项3"
+					},
+					{
+						"label" : "D",
+						"description" : "选项4"
+					}
+				],
+				"answer" : "D",
+				"analysis" : "答案解析答案解析答案解析",
+				"tags" : null
+            },
+            "selfPresenceDetail": {
+                "userResponse": "D",
+                "submitTime": 1224000
+            }
+		},
+		{
+			"id" : "1235653",
+			"title" : "互动三",
+			"roomId" : "dvsdvds124-456",
+			"beginTime" : 924000,
+			"endTime" : 2124000,
+			"status" : 3,
+			"type" : 1,
+			"content" : {
+				"id" : "1513331213",
+				"description" : "下列选项中，最军队VS最军队VS最军队VS最军队VS的一项",
+				"type" : 2,
+				"options" : [
+					{
+						"label" : "A",
+						"description" : "选项1"
+					},
+					{
+						"label" : "B",
+						"description" : "选项2"
+					},
+					{
+						"label" : "C",
+						"description" : "选项3"
+					},
+					{
+						"label" : "D",
+						"description" : "选项4"
+					}
+				],
+				"answer" : "BD",
+				"analysis" : "答案解析答案解析答案解析",
+				"tags" : null
+            },
+            "selfPresenceDetail": {
+                "userResponse": null,
+                "submitTime": 1224000
+            }
+		}
+	]
+}
