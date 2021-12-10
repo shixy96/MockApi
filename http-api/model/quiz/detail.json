@@ -1,0 +1,167 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "id": "0_6",
+    "title": "测试试卷",
+    "type": 7,
+    "totalTime": 7200,
+    "totalScore": 100,
+    "objectiveQuestionScore": 30,
+    "answered": true,
+    "answerType": 1,
+    "studentScore": 76,
+    "timeSpend": 6812,
+    "preparationUrl": "http://12324234234.jpg",
+    "tags": [
+      {
+        "id": 1,
+        "title": "辨析题解析"
+      }
+    ],
+    "filter": {
+      "conditions": [
+        {
+          "name": "年份",
+          "key": "year",
+          "type": 1,
+          "subNodes": [
+            {
+              "name": 2018,
+              "key": "year",
+              "type": 1,
+              "subNodes": null
+            },
+            {
+              "name": 2017,
+              "key": "year",
+              "type": 1,
+              "subNodes": null
+            },
+            {
+              "name": 2016,
+              "key": "year",
+              "type": 1,
+              "subNodes": null
+            }
+          ]
+        },
+        {
+          "name": "科目",
+          "key": "subjects",
+          "type": 3,
+          "subNodes": [
+            {
+              "name": "大学英语",
+              "key": "subjects",
+              "type": 3,
+              "subNodes": null
+            },
+            {
+              "name": "商务英语",
+              "key": "subjects",
+              "type": 3,
+              "subNodes": null
+            }
+          ]
+        },
+        {
+          "name": "题型",
+          "key": "questionType",
+          "type": 4,
+          "subNodes": [
+            {
+              "name": "单选题",
+              "key": "questionType",
+              "type": 4,
+              "subNodes": null
+            },
+            {
+              "name": "多选题",
+              "key": "questionType",
+              "type": 4,
+              "subNodes": null
+            }
+          ]
+        }
+      ]
+    },
+    "questionCount": 10,
+    "studentQuestions": [
+      {
+        "questionId": "1",
+        "questionType": 3,
+        "questionTypeName": "问答",
+        "answerStyle": 3,
+        "questionSource": "",
+        "score": 10,
+        "timeSpend": 10,
+        "description": "简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。简述财务杠杆的作用。",
+        "solution": "财务杠杆的作用是指那些仅支付固定性资金成本的筹资方式(如债券、优先股、租赁等)对增加所有者(普通股持有者)收益的作用。",
+        "analysis": "在企业资金总额中有一部分仅支付固定性资金成本(如债券利息、优先股股利、租赁费等)的资金来源，当税息前利润增大时。",
+        "studentAnswer": "在一般情况下，每一元利润所负担的固定性资金成本就相对减少．而使每一普通股分得的利润有所增加。",
+        "studentScore": 6,
+        "answerTime": 1531914818367,
+        "isCollect": false,
+        "knowledges": null,
+        "options": null,
+        "subQuestions": null,
+        "wrongTimes": 1531914818367
+      },
+      {
+        "questionId": "2",
+        "questionType": 1,
+        "questionTypeName": "判断",
+        "answerStyle": 1,
+        "questionSource": "",
+        "score": 10,
+        "timeSpend": 10,
+        "description": "任何技能都是通过练习而形成的。",
+        "solution": "A",
+        "analysis": "技能是个体运用已有的知识经验，通过练习而形成的合乎法则的活动方式。练习是技能形成所不可缺少的关键环节，通过不同形式的练习，可以使个体掌握某种技能。所以说任何技能都是通过练习而形成的。",
+        "studentAnswer": "A",
+        "studentScore": 6,
+        "answerTime": 1531914818367,
+        "isCollect": false,
+        "knowledges": null,
+        "options": [
+          {
+            "id": 1,
+            "questionId": "2",
+            "label": "A",
+            "description": "正确"
+          },
+          {
+            "id": 2,
+            "questionId": "2",
+            "label": "B",
+            "description": "错误"
+          }
+        ],
+        "subQuestions": null,
+        "wrongTimes": 1531914818367
+      },
+      {
+        "questionId": "3",
+        "questionType": 3,
+        "questionTypeName": "名词解释",
+        "answerStyle": 3,
+        "questionSource": "",
+        "score": 10,
+        "timeSpend": 10,
+        "description": "名词解释：营运资金",
+        "solution": "略",
+        "analysis": "营运资金的垫付是指在一个完整的项目投资过程中，为维持正常生产经营运转而发生的营运资金，又称为营运资金投资。",
+        "studentAnswer": "",
+        "studentScore": 6,
+        "answerTime": 1531914818367,
+        "isCollect": false,
+        "knowledges": null,
+        "options": null,
+        "subQuestions": null,
+        "wrongTimes": 1531914818367
+      }
+    ],
+    "quizGrades": null
+  }
+}

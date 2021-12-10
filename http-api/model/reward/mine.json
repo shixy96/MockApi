@@ -1,0 +1,114 @@
+{
+  "hr" : 0,
+  "message" : "成功",
+  "data" : {
+     "totalBonusPoints" : 150,
+     "totalBonusCoins" : 22,
+     "currentLevel" : {
+        "id" : 1,
+        "level" : 1,
+        "name" : "学员",
+        "bonusPointsGap" : 127,
+        "nextThreshold" : 226
+     },
+		"nextLevel":{
+			"id": 4,
+			"level": 4,
+			"name": "超级学霸",
+			"bonusPointsGap": 193,
+			"nextThreshold": 419
+		},
+     "rules" : [
+        {
+           "id" : 1,
+           "type" : 1,
+           "category" : 1,
+           "ruleDetails" : [
+              {
+                 "threshold" : 1,
+                 "bonusPoints" : 5,
+                 "bonusCoins" : 2
+              }
+           ]
+        },
+        {
+           "id" : 2,
+           "type" : 2,
+           "category" : 2,
+           "ruleDetails" : [
+              {
+                 "threshold" : 300,
+                 "bonusPoints" : 5,
+                 "bonusCoins" : 2
+              },
+              {
+                 "threshold" : 900,
+                 "bonusPoints" : 10,
+                 "bonusCoins" : 6
+              },
+              {
+                 "threshold" : 1800,
+                 "bonusPoints" : 15,
+                 "bonusCoins" : 12
+              }
+           ]
+        },
+        {
+           "id" : 3,
+           "type" : 3,
+           "category" : 2,
+           "ruleDetails" : [
+              {
+                 "threshold" : 5,
+                 "bonusPoints" : 5,
+                 "bonusCoins" : 2
+              },
+              {
+                 "threshold" : 20,
+                 "bonusPoints" : 10,
+                 "bonusCoins" : 8
+              },
+              {
+                 "threshold" : 50,
+                 "bonusPoints" : 15,
+                 "bonusCoins" : 16
+              }
+           ]
+        },
+        {
+           "id" : 4,
+           "type" : 4,
+           "category" : 1,
+           "ruleDetails" : [
+              {
+                 "threshold" : 1,
+                 "bonusPoints" : 5,
+                 "bonusCoins" : 4
+              }
+           ]
+        }
+     ],
+     "progressList" : [
+        {
+           "type" : 1,
+           "progress" : 1,
+           "targetDesc" : "登录1次"
+        },
+        {
+           "type" : 2,
+           "progress" : 600,
+           "targetDesc" : "继续学习15分钟"
+        },
+        {
+           "type" : 3,
+           "progress" : 12,
+           "targetDesc" : "再做20道题目"
+        },
+        {
+           "type" : 4,
+           "progress" : 0,
+           "targetDesc" : "分享1个学习资源"
+        }
+     ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "total": 12,
+    "rows": [
+      {
+        "id": "1",
+        "offerId": "11",
+        "offerName": "学位英语课程",
+        "offerType": 1,
+        "offerPrice": 10000,
+        "allowPayType": [0, 5],
+        "payType": 1,
+        "payStatus": 1,
+        "message": "no message",
+        "purchaseTime": 1531914818367,
+        "expiredTime": 1531914818367,
+        "catalogId": "582def65g5ca",
+        "catalogName": "学位英语",
+        "catalogType": 1,
+        "schoolId": "",
+        "schoolName": "精品课程",
+        "shareId": "adsfsdfsd"
+      },
+      {
+        "id": "2",
+        "offerId": "22",
+        "offerName": "数学课程",
+        "offerType": 2,
+        "offerPrice": 10000,
+        "allowPayType": [0, 5],
+        "payType": 1,
+        "payStatus": 1,
+        "message": "no message",
+        "purchaseTime": 1531914818367,
+        "expiredTime": 1531914818367,
+        "catalogId": "582def65g5ca",
+        "catalogName": "数学课程",
+        "catalogType": 1,
+        "schoolId": "1",
+        "schoolName": "成教"
+      }
+    ]
+  }
+}

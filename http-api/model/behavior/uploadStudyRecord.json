@@ -1,0 +1,27 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "recordInfos": [
+      {
+        "hr": 0,
+        "data": {
+          "recordId": 1,
+          "startTime": 1556425868632,
+          "endTime": 1556429468632
+        },
+        "message": "成功"
+      },
+      {
+        "hr": -2147483648,
+        "data": {
+          "recordId": 2,
+          "startTime": null,
+          "endTime": null
+        },
+        "message": "上传失败"
+      }
+    ]
+  },
+  "extraData": null
+}

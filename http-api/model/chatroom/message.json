@@ -1,0 +1,91 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "rows": [
+      {
+        "id": 1,
+        "body": "沉迷老师的课",
+        "time": 1563880455628,
+        "fromDetail": {
+          "type": "CHAT_ROOM_PARTICIPANT",
+          "userId": 123,
+          "nick": "默兹因",
+          "avatar": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/systemImages/photo/图像24.png",
+          "roomId": 888,
+          "participantRole": "MEMBER"
+        }
+      },
+      {
+        "id": 2,
+        "name": "小希妹纸",
+        "body": "看，这是我自己在说话哦",
+        "self": true,
+        "time": 1563880455628,
+        "fromDetail": {
+          "type": "CHAT_ROOM_PARTICIPANT",
+          "userId": 1635869,
+          "nick": "小希妹纸",
+          "avatar": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/photo.png",
+          "roomId": 888,
+          "participantRole": "ASSISTANT"
+        }
+      },
+      {
+        "id": 3,
+        "body": "这边是说一段话的样式，很长的一段话哦，啊啊啊啊啊啊，注意左右行间距哦",
+        "time": 1563880455628,
+        "fromDetail": {
+          "type": "CHAT_ROOM_PARTICIPANT",
+          "userId": 123,
+          "nick": "默兹因",
+          "avatar": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/systemImages/photo/图像24.png",
+          "roomId": 888,
+          "participantRole": "MEMBER"
+        }
+      },
+      {
+        "id": 4,
+        "body": "老师讲的非常好，哈哈哈",
+        "time": 1563880455628,
+        "fromDetail": {
+          "type": "CHAT_ROOM_PARTICIPANT",
+          "userId": 123,
+          "nick": "默兹因",
+          "avatar": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/systemImages/photo/图像24.png",
+          "roomId": 888,
+          "participantRole": "MEMBER"
+        }
+      },
+      {
+        "id": 5,
+        "name": "小希妹纸",
+        "body": "这边是说一段话的样式，很长的一段话哦，啊啊啊啊啊啊，注意左右行间距哦。看，这是我自己在说话哦",
+        "self": true,
+        "time": 1563880455628,
+        "fromDetail": {
+          "type": "CHAT_ROOM_PARTICIPANT",
+          "userId": 1635869,
+          "nick": "小希妹纸",
+          "avatar": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/uploadFile/photo/photo.png",
+          "roomId": 888,
+          "participantRole": "ASSISTANT"
+        }
+      },
+      {
+        "id": 6,
+        "body": "12314564545156145165",
+        "time": 1563880455628,
+        "fromDetail": {
+          "type": "CHAT_ROOM_PARTICIPANT",
+          "userId": 123,
+          "nick": "默兹因",
+          "avatar": "https://s3.cn-north-1.amazonaws.com.cn/qingshuxuetang/systemImages/photo/图像24.png",
+          "roomId": 888,
+          "participantRole": "MEMBER"
+        }
+      }
+    ],
+    "total": 10
+  }
+}

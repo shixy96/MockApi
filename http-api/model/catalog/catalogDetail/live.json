@@ -1,0 +1,239 @@
+{
+	"message" : null,
+	"extraData" : null,
+	"hr" : 0,
+	"data" : {
+		"id" : "5dfb61b6857aba000172431c",
+		"serialNum" : null,
+		"name" : "公开课那里给",
+		"description" : null,
+		"url" : null,
+		"coverImg" : "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/live-cover/cover.png",
+		"tags" : [ "标签" ],
+		"purchasable" : false,
+		"createdTime" : 1576755638423,
+		"selfSupport" : false,
+		"referCampaign" : null,
+		"duration" : null,
+		"originalVideoUrl" : null,
+		"courseId" : null,
+		"courseName" : null,
+		"popularity" : 599,
+		"count" : 5,
+		"thumbsUpNum" : 0,
+		"hasThumbsUp" : false,
+		"hasThumbsDown" : false,
+		"collected" : false,
+		"quizDetail" : null,
+		"courseDetail" : null,
+		"materialDetail" : null,
+		"liveDetail" : {
+			"id" : "5dfb61b6857aba000172431c",
+			"title" : "公开课那里给",
+			"cats" : [ "教师资格证" ],
+			"tags" : [ "标签" ],
+			"teacherInfo" : {
+				"teacherName" : "黄某",
+				"teacherIntro" : null,
+				"teacherPhotoUrl" : "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/user/userdefault.png",
+				"teacherTags" : null
+			},
+			"courseInfo" : {
+				"courseCoverImgUrl" : "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/live-cover/cover.png",
+				"courseIntro" : "黎明",
+				"courseDetailImgUrl" : null
+			},
+			"reserved" : false,
+			"schoolId" : 100,
+			"lessonDetail" : [
+				{
+					"id" : "5dfb515c857aba0001fd738a",
+					"name" : "课时123",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1576842888360,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb515c857aba0001fd738a",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb55fb857aba000187a70b",
+					"name" : "课时2",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1576925871829,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb55fb857aba000187a70b",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb55fb857aba000187a70c",
+					"name" : "课时5",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1577012455901,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb55fb857aba000187a70c",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb63dc857aba0001724322",
+					"name" : "ikk",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1577274589335,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb63dc857aba0001724322",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb63ee857aba0001724324",
+					"name" : "jjj ",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1577274607522,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb63ee857aba0001724324",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+{
+					"id" : "5dfb515c857aba0001fd738a7",
+					"name" : "课时123",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1576842888360,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb515c857aba0001fd738a",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb55fb857aba000187a70b1",
+					"name" : "课时2",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1576925871829,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb55fb857aba000187a70b",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb55fb857aba000187a70c2",
+					"name" : "课时5",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1577012455901,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb55fb857aba000187a70c",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb63dc857aba00017243223",
+					"name" : "ikk",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1577274589335,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb63dc857aba0001724322",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				},
+				{
+					"id" : "5dfb63ee857aba00017243244",
+					"name" : "jjj ",
+					"pullHlsUrl" : null,
+					"pullHttpUrl" : null,
+					"pullRtmpUrl" : null,
+					"pullHdlUrl" : null,
+					"pullSnapUrl" : null,
+					"url" : null,
+					"beginTime" : 1577274607522,
+					"pushRtmpUrl" : null,
+					"duration" : null,
+					"status" : 0,
+					"imInfo" : {
+						"chatRoomId" : "5dfb63ee857aba0001724324",
+						"imServerUrl" : "ws://im.dev.qingshuxuetang.com/v1/socketHandler"
+					}
+				}
+			],
+			"beginTime" : 1576842888360,
+			"endTime" : 1577274607522
+		},
+		"cats" : [ "教师资格证" ],
+		"subjects" : null,
+		"year" : null,
+		"behUpdatedTime" : null,
+		"verticalScreen" : null
+	}
+}

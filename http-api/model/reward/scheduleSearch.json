@@ -1,0 +1,25 @@
+{
+  "hr" : 0,
+  "message" : "成功",
+  "data" : {
+     "total" : 2,
+     "rows" : [
+        {
+           "id" : 2,
+           "topic" : "第二期学习任务活动主题",
+           "sequence" : 2,
+           "startTime" : 1582992000000,
+           "endTime" : 1584201600000,
+           "coverImage" : "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3447493327,991781758&fm=26&gp=0.jpg"
+        },
+        {
+           "id" : 1,
+           "topic" : "第一期学习任务活动主题",
+           "sequence" : 1,
+           "startTime" : 1581782400000,
+           "endTime" : 1582732800000,
+           "coverImage" : "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3447493327,991781758&fm=26&gp=0.jpg"
+        }
+     ]
+  }
+}

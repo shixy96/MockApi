@@ -1,0 +1,21 @@
+{
+	"hr" : 0,
+	"message" : "成功",
+	"data" : [{
+		"interactionId" : "1235651",
+		"presenceTime" : 1582992000000,
+		"sessionId" : "dvsdvds124-456",
+		"userId" : "54440031",
+        "nick": "sam",
+        "avatar": "",
+        "response": "B"
+	},{
+		"interactionId" : "1235651",
+		"presenceTime" : 1582992000000,
+		"sessionId" : "dvsdvrt124-123",
+		"userId" : "54440032",
+        "nick": "tyh",
+        "avatar": "",
+        "response": null
+	}]
+}

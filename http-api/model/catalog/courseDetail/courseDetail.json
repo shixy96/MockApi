@@ -1,0 +1,91 @@
+{
+  "id": "402",
+  "name": "幼儿园保教知识与能力",
+  "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/teacher_certi/course/k_a.png",
+  "knowledgeStartTime": 0,
+  "wordsZipPath": "https://s3.cn-north-1.amazonaws.com.cn/discovery/degree_eng/words/words20180608.zip",
+  "tags": null,
+  "materials": null,
+  "shareGainInfo": {
+    "shareGainAmount": 100000,
+    "discountAmount": 50000
+  },
+  "type": 10,
+  "videos": null,
+  "lives": null,
+  "quizs": null,
+  "knowledges": [
+    {
+      "id": 1,
+      "parentId": 0,
+      "name": "学前儿童发展",
+      "importantIndex": 0,
+      "sequence": 1
+    },
+    {
+      "id": 2,
+      "parentId": 1,
+      "name": "学前儿童发展概述",
+      "importantIndex": 0,
+      "sequence": 1
+    },
+    {
+      "id": 3,
+      "parentId": 2,
+      "name": "婴幼儿发展概述",
+      "importantIndex": 3,
+      "sequence": 1,
+      "payStatus": false,
+      "free": false,
+      "published": true,
+      "videos": [],
+      "materials": [],
+      "quizs": []
+    },
+    {
+      "id": 4,
+      "parentId": 1,
+      "name": "儿童心理发展理论",
+      "importantIndex": 0,
+      "sequence": 2
+    },
+    {
+      "id": 5,
+      "parentId": 4,
+      "name": "儿童心理发展理论",
+      "importantIndex": 2,
+      "sequence": 1,
+      "payStatus": true,
+      "free": true,
+      "published": true,
+      "videos": [],
+      "materials": [],
+      "quizs": []
+    },
+    {
+      "id": 6,
+      "parentId": 1,
+      "name": "学前儿童生理的发展",
+      "importantIndex": 0,
+      "sequence": 3
+    },
+    {
+      "id": 7,
+      "parentId": 6,
+      "name": "幼儿身体发育与动作发展",
+      "importantIndex": 2,
+      "sequence": 1,
+      "payStatus": false,
+      "free": true,
+      "published": false,
+      "videos": [],
+      "materials": [],
+      "quizs": []
+    }
+  ],
+  "knowledgesMap": {
+    "mapImage": "https://s3.cn-north-1.amazonaws.com.cn/discovery/teacher_certi/course/k_a_m.jpg",
+    "mapPoints": "[{\"id\":200,\"x\":0.446666667,\"y\":0.244791667}]"
+  },
+  "ebooks": null
+}

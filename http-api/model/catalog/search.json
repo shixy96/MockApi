@@ -1,0 +1,321 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "filter": {
+      "conditions": [
+        {
+          "name": "类别",
+          "key": "cats",
+          "type": 2,
+          "valueList": [
+            {
+              "value": "医药类",
+              "subNodes": [
+                {
+                  "value": "主治医师(内科学)",
+                  "subNodes": null
+                },
+                {
+                  "value": "执业医师",
+                  "subNodes": [
+                    {
+                      "value": "执业医师教育",
+                      "subNodes": null
+                    },
+                    {
+                      "value": "执业医师课程辅助",
+                      "subNodes": null
+                    }
+                  ]
+                },
+                {
+                  "value": "妇产科护理高级职称",
+                  "subNodes": null
+                }
+              ]
+            },
+            {
+              "value": "工程类",
+              "subNodes": [
+                {
+                  "value": "房地产估价师",
+                  "subNodes": null
+                },
+                {
+                  "value": "设备监理师",
+                  "subNodes": null
+                },
+                {
+                  "value": "测绘工程师",
+                  "subNodes": null
+                }
+              ]
+            },
+            {
+              "value": "职称类",
+              "subNodes": null
+            }
+          ]
+        },
+        {
+          "name": "年份",
+          "key": "year",
+          "type": 1,
+          "valueList": [
+            {
+              "value": 2018,
+              "subNodes": null
+            },
+            {
+              "value": 2017,
+              "subNodes": null
+            },
+            {
+              "value": 2016,
+              "subNodes": null
+            }
+          ]
+        }
+      ]
+    },
+
+    "total": 22,
+    "rows": [
+      {
+        "id": "5b7fd723eb3a9440d057467d",
+        "serialNum": "7d27f7ba-7af1-468b-9f23-0572116dd002",
+        "name": "公开课一公开课一公开课一公开课一公开课一公开课一",
+        "description": null,
+        "url": null,
+        "type": 9,
+        "typeName": "公开课",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": ["公开课", "教师资格证"],
+        "purchasable": true,
+        "createdTime": null,
+        "selfSupport": true,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 1564,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null,
+        "popularity": 534,
+        "reserved": true,
+        "status": 0,
+        "beginTime": 1563177837000
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467d",
+        "serialNum": "7d27f7ba-7af1-468b-9f23-0572116dd002",
+        "name": "公开课222公开课222公开课222公开课222公开课",
+        "description": null,
+        "url": null,
+        "type": 9,
+        "typeName": "公开课",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": ["ccc", "ddd"],
+        "purchasable": true,
+        "createdTime": null,
+        "selfSupport": true,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null,
+        "popularity": 481,
+        "reserved": true,
+        "status": 1
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467d",
+        "serialNum": "7d27f7ba-7af1-468b-9f23-0572116dd002",
+        "name": "公开课333",
+        "description": null,
+        "url": null,
+        "type": 9,
+        "typeName": "公开课",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": ["eee", "fff"],
+        "purchasable": true,
+        "createdTime": null,
+        "selfSupport": true,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 3758,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null,
+        "popularity": 253,
+        "reserved": false,
+        "status": 4
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467d",
+        "serialNum": "7d27f7ba-7af1-468b-9f23-0572116dd002",
+        "name": "教师资格证",
+        "description": null,
+        "url": null,
+        "type": 5,
+        "typeName": "推广活动",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": null,
+        "purchasable": true,
+        "createdTime": null,
+        "selfSupport": true,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b56b864516cf4260857f573",
+        "serialNum": "d08856b5-9a0b-4c16-b0b3-6d36112ddbc5",
+        "name": "18级教师资格证（小学组）职业能力测试",
+        "description": "18级教师资格证（小学组）测试",
+        "url": null,
+        "type": 6,
+        "typeName": "精品课程/培训班/教学计划",
+        "coverImg": null,
+        "tags": null,
+        "purchasable": true,
+        "createdTime": 1532409951886,
+        "selfSupport": true,
+        "referCampaign": null,
+        "courseId": "5b7fd723eb3a9440d057467d",
+        "courseName": "2018年教师资格证",
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5ba0c4a3516cf434a8e1356f",
+        "serialNum": null,
+        "name": "写作审题方法",
+        "description": "写作审题方法",
+        "url": "https://qr.qsxt.info/discovery/degree_eng/2018/030_copy.mp4",
+        "type": 3,
+        "typeName": "视频",
+        "coverImg": null,
+        "tags": null,
+        "purchasable": false,
+        "createdTime": null,
+        "selfSupport": false,
+        "referCampaign": null,
+        "courseId": "5b57ee10e858f4de6b803876",
+        "courseName": "2018年教师资格考试《教育学（小学组）》复习全书【核心讲义+历年真题详解】",
+        "duration": 2598,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467b",
+        "serialNum": null,
+        "name": "助考",
+        "description": null,
+        "url": null,
+        "type": 5,
+        "typeName": "推广活动",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_pre_item.png",
+        "tags": null,
+        "purchasable": false,
+        "createdTime": null,
+        "selfSupport": false,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5ba0c4a3545cf434a8e1356d",
+        "serialNum": null,
+        "name": "成人高考需要注意些什么",
+        "description": "成人高考需要注意些什么",
+        "url": "https://qr.qsxt.info/discovery/degree_eng/2018/030_copy.mp4",
+        "type": 3,
+        "typeName": "视频",
+        "coverImg": null,
+        "tags": null,
+        "purchasable": false,
+        "createdTime": null,
+        "selfSupport": false,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 2598,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467c",
+        "serialNum": null,
+        "name": "学位英语",
+        "description": null,
+        "url": null,
+        "type": 5,
+        "typeName": "推广活动",
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/degree_eng_item.png",
+        "tags": null,
+        "purchasable": false,
+        "createdTime": null,
+        "selfSupport": false,
+        "referCampaign": null,
+        "courseId": null,
+        "courseName": null,
+        "duration": 2598,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b231ead421aa955c5ef5b3b",
+        "serialNum": null,
+        "name": "2018教师资格证考试《教育学（小学组）》复习全书【核心讲义+历年真题详解】",
+        "description": null,
+        "url": null,
+        "type": 8,
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": [
+          "建筑工程",
+          "咨询工程师（投资）",
+          "项目决策分析与评价",
+          "精讲班"
+        ],
+        "purchasable": false,
+        "selfSupport": true,
+        "createdTime": 1529028265000,
+        "typeName": "课程",
+        "referCampaign": "asdfasdfsadfsf",
+        "duration": 1378359,
+        "originalVideoUrl": null,
+        "courseId": "5b231ead421aa955c5ef5b3b",
+        "courseName": "2018教师资格证考试《教育学（小学组）》复习全书【核心讲义+历年真题详解】",
+        "highlightedStrsInName": null
+      },
+      {
+        "id": "5b1a6c839ef3adeaec8d28d4",
+        "serialNum": null,
+        "name": "赵金铭《对外汉语教学概论》配套题库【名校考研真题＋课后习题详解＋章节题库＋模拟试题】 第9章　现代科学技术与对外汉语教学",
+        "description": null,
+        "url": null,
+        "type": 6,
+        "coverImg": null,
+        "tags": null,
+        "purchasable": false,
+        "selfSupport": false,
+        "createdTime": 1532343914000,
+        "typeName": "试卷",
+        "referCampaign": null,
+        "duration": 0,
+        "originalVideoUrl": null,
+        "highlightedStrsInName": null
+      }
+    ]
+  },
+  "extraData": null
+}

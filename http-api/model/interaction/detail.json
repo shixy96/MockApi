@@ -1,0 +1,39 @@
+{
+	"hr" : 0,
+	"message" : "成功",
+	"data" : {
+		"id" : "1235651",
+		"title" : "互动",
+		"roomId" : "23vdss-vdsvd",
+		"beginTime" : 1582992000000,
+		"endTime" : 1584201600000,
+		"status" : 2,
+		"type" : 1,
+		"content" : {
+			"id" : "1513331",
+			"description" : "下列选项中，最军队VS最军队VS最军队VS最军队VS的一项",
+			"type" : 2,
+			"options" : [
+				{
+					"label" : "A",
+					"description" : "选项1"
+				},
+				{
+					"label" : "B",
+					"description" : "选项2"
+				},
+				{
+					"label" : "C",
+					"description" : "选项3"
+				},
+				{
+					"label" : "D",
+					"description" : "选项4"
+				}
+			],
+			"answer" : "AB",
+			"analysis" : "答案解析答案解析答案解析",
+			"tags" : null
+		}
+	}
+}

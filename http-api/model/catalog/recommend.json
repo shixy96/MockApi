@@ -1,0 +1,94 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": {
+    "total": 3,
+    "rows": [
+      {
+        "id": "5b7fd723eb3a9440d057467a",
+        "name": "学习清单1学习清单1学习清单1学习清单1学习清单1学习清单1学习清单1学习清单1",
+        "description": null,
+        "schoolId": 0,
+        "courseId": null,
+        "url": null,
+        "type": 15,
+        "classId": null,
+        "courseName": null,
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": ["教师资格证","金融"],
+        "purchasable": false,
+        "createdTime": 1532409951886,
+        "selfSupport": true,
+        "referCampaign": null,
+        "duration": 0,
+        "question": [],
+        "popularity": 1256,
+        "count": 3,
+        "authorInfo": {
+            "userId": 1,
+            "name": "金牌讲师马老师",
+            "intro": "好人",
+            "photoUrl": "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/course/bpartner/icon_ykd2.png",
+            "tags": ["金牌讲师"]
+        }
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467b",
+        "name": "学习清单2",
+        "description": null,
+        "schoolId": 0,
+        "courseId": null,
+        "url": null,
+        "type": 15,
+        "classId": null,
+        "courseName": null,
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": ["教师资格证","金融"],
+        "purchasable": false,
+        "createdTime": 1532409951886,
+        "selfSupport": true,
+        "referCampaign": null,
+        "duration": 0,
+        "question": [],
+        "popularity": 1256,
+        "count": 3,
+        "authorInfo": {
+            "userId": 1,
+            "name": null,
+            "intro": "好人",
+            "photoUrl": null,
+            "tags": ["金牌讲师"]
+        }
+      },
+      {
+        "id": "5b7fd723eb3a9440d057467c",
+        "name": "学习清单3",
+        "description": null,
+        "schoolId": 0,
+        "courseId": null,
+        "url": null,
+        "type": 15,
+        "classId": null,
+        "courseName": null,
+        "coverImg": "https://s3.cn-north-1.amazonaws.com.cn/discovery/activity/teacher_certi.png",
+        "tags": ["教师资格证","金融"],
+        "purchasable": false,
+        "createdTime": 1532409951886,
+        "selfSupport": true,
+        "referCampaign": null,
+        "duration": 0,
+        "question": [],
+        "popularity": 1256,
+        "count": 3,
+        "authorInfo": {
+            "userId": 1,
+            "name": "金牌讲师马老师金牌讲师马老师",
+            "intro": "好人",
+            "photoUrl": "https://s3.cn-north-1.amazonaws.com.cn/s3.qsxt.info/course/bpartner/icon_ykd2.png",
+            "tags": ["金牌讲师"]
+        }
+      }
+    ]
+  },
+  "extraData": null
+}

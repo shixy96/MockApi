@@ -1,0 +1,34 @@
+{
+  "hr": 0,
+  "message": "成功",
+  "data": [
+    {
+      "schoolId": 0,
+      "contentType": 12,
+      "action": 1,
+      "statisticsType": 1,
+      "statisticsName": "做题记录",
+      "statisticsValue": 12,
+      "statisticTime": 1459416344000
+    },
+    {
+      "schoolId": 0,
+      "contentType": 12,
+      "action": 1,
+      "statisticsType": 2,
+      "statisticsName": "收藏题",
+      "statisticsValue": 0,
+      "statisticTime": 1459416344000
+    },
+    {
+      "schoolId": 0,
+      "contentType": 12,
+      "action": 1,
+      "statisticsType": 3,
+      "statisticsName": "错题",
+      "statisticsValue": 180,
+      "statisticTime": 1459416344000
+    }
+  ],
+  "extraData": null
+}

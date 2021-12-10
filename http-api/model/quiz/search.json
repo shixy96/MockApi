@@ -1,0 +1,346 @@
+{
+  "data": {
+    "filter": {
+      "conditions": [
+        {
+          "name": "年份",
+          "key": "year",
+          "type": 1,
+          "subNodes": [
+            {
+              "name": "2018",
+              "key": "year",
+              "type": 1,
+              "subNodes": null
+            },
+            {
+              "name": "2017",
+              "key": "year",
+              "type": 1,
+              "subNodes": null
+            },
+            {
+              "name": "2016",
+              "key": "year",
+              "type": 1,
+              "subNodes": null
+            }
+          ]
+        },
+        {
+          "name": "类别",
+          "key": "cats",
+          "type": 2,
+          "subNodes": [
+            {
+              "name": "医药卫生",
+              "key": "cats",
+              "type": 2,
+              "subNodes": [
+                {
+                  "name": "职业医师",
+                  "key": "cats",
+                  "type": 2,
+                  "subNodes": [
+                    {
+                      "name": "口腔执业医师",
+                      "key": "cats",
+                      "type": 2,
+                      "subNodes": null
+                    },
+                    {
+                      "name": "临床职业医师",
+                      "key": "cats",
+                      "type": 2,
+                      "subNodes": null
+                    }
+                  ]
+                },
+                {
+                  "name": "职业医师2",
+                  "key": "cats",
+                  "type": 2,
+                  "subNodes": [
+                    {
+                      "name": "大学英语",
+                      "key": "subjects",
+                      "type": 3,
+                      "subNodes": null
+                    },
+                    {
+                      "name": "商务英语",
+                      "key": "subjects",
+                      "type": 3,
+                      "subNodes": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "建筑工程",
+              "key": "cats",
+              "type": 2,
+              "subNodes": [
+                {
+                  "name": "建造师",
+                  "key": "cats",
+                  "type": 2,
+                  "subNodes": null
+                },
+                {
+                  "name": "造价师",
+                  "key": "cats",
+                  "type": 2,
+                  "subNodes": null
+                },
+                {
+                  "name": "消防师",
+                  "key": "cats",
+                  "type": 2,
+                  "subNodes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "total": 13,
+    "rows": [
+      {
+        "id": "2050",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 12,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": null,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": -1,
+        "studentScore": null,
+        "timeSpend": null,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "746",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 12,
+        "totalTime": 60,
+        "totalScore": 100,
+        "objectiveQuestionScore": 42,
+        "correctRate": 56,
+        "questionCount": 100,
+        "answeredCount": 40,
+        "correctCount": 13,
+        "quizTags": null,
+        "answerStatus": 1,
+        "studentScore": 84,
+        "timeSpend": 2192,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": 1561345526000
+      },
+      {
+        "id": "746",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 13,
+        "totalTime": 60,
+        "totalScore": 100,
+        "objectiveQuestionScore": 42,
+        "correctRate": 56,
+        "questionCount": 100,
+        "answeredCount": 40,
+        "correctCount": 13,
+        "quizTags": null,
+        "answerStatus": 0,
+        "studentScore": 84,
+        "timeSpend": 2192,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": 1561345526000
+      },
+      {
+        "id": "818",
+        "title": "2019年上半年教师资格证考试《初中语文》真题",
+        "type": 99,
+        "totalTime": 60,
+        "totalScore": 100,
+        "objectiveQuestionScore": 42,
+        "correctRate": 56,
+        "questionCount": 100,
+        "answeredCount": 40,
+        "correctCount": 13,
+        "quizTags": null,
+        "answerStatus": 0,
+        "studentScore": 84,
+        "timeSpend": 2192,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": 1561345526000
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": 1561345526000
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 3,
+        "studentScore": 76,
+        "timeSpend": 2568,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      },
+      {
+        "id": "1258",
+        "title": "2019年上半年教师资格证考试《教育知识与能力》(中学)真题",
+        "type": 2,
+        "totalTime": 120,
+        "totalScore": 100,
+        "objectiveQuestionScore": 54,
+        "questionCount": null,
+        "quizTags": null,
+        "answerStatus": 2,
+        "studentScore": 76,
+        "timeSpend": 1569,
+        "free": true,
+        "startTime": null,
+        "endTime": null,
+        "submitTime": null
+      }
+    ]
+  },
+  "extraData": null,
+  "hr": 0,
+  "message": "成功"
+}
