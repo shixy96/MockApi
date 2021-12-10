@@ -1,0 +1,30 @@
+{
+  "name": "mockapi",
+  "version": "1.0.0",
+  "description": "## [mock socket api](./socket-api/README.md)",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "commit": "git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.feifanuniv.com:shixy/MockApi.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-zh"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitizen": "^4.2.4",
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog-zh": "^0.0.2",
+    "husky": "^7.0.4"
+  }
+}
